@@ -1,6 +1,6 @@
 # Ontology of Transition — Part III: The Thermodynamic Price of External Time: Rate–Distortion Bounds for Physical Clock Records
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21473025.svg)](https://doi.org/10.5281/zenodo.21473025)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21473025-blue.svg)](https://doi.org/10.5281/zenodo.21473025)
 
 **Alexander Vityaz** ([ORCID 0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881)) · Corezoid Inc., Dnipro, Ukraine
 **Published:** July 2026 · **Version:** v1 · **License:** [CC BY 4.0](../../../LICENSE-CC-BY-4.0)

@@ -1,6 +1,6 @@
 # Ontology of Transition—Part I: Causal Order of Events, Internal and External Clocks, Thermodynamics, and Information-Theoretic Distinguishability
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21471785.svg)](https://doi.org/10.5281/zenodo.21471785)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21471785-blue.svg)](https://doi.org/10.5281/zenodo.21471785)
 
 **Alexander Vityaz** ([ORCID 0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881)) · Corezoid Inc., Dnipro, Ukraine
 **Published:** July 2026 · **Version:** v1 · **License:** [CC BY 4.0](../../../LICENSE-CC-BY-4.0)

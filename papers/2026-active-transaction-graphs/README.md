@@ -1,6 +1,6 @@
 # Active Transaction Graphs: A Formal Framework for Transactional Interactive Systems
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20747873.svg)](https://doi.org/10.5281/zenodo.20747873)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20747873-blue.svg)](https://doi.org/10.5281/zenodo.20747873)
 
 **Alexander Vityaz** ([ORCID 0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881)) · Corezoid Inc., Dnipro, Ukraine
 **Published:** March 2026 · **Version:** v1 · **License:** [CC BY 4.0](../../LICENSE-CC-BY-4.0)
@@ -45,6 +45,9 @@ This paper is foundational for the collection; it does not cite the other papers
 - Cited by [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/)
 - Cited by [Management Debt—Part I](../2026-management-debt-part-i/)
 - Cited by [Ontology of Transition—Part I](../2026-ontology-of-transition/part-i/) and [Part III](../2026-ontology-of-transition/part-iii/)
+- Cited by [Regulatory Quality of Asymptotic Models](../2026-regulatory-quality-asymptotic-models/)
+- Cited by [Company Brain](../2026-company-brain/)
+- Cited by [Beyond Programming Languages](../2026-beyond-programming-languages/)
 
 ## Links
 

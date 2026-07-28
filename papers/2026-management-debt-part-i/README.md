@@ -1,6 +1,6 @@
 # Management Debt—Part I: Concept, Metrics, and Principles for Attributing Materialised Debts to Actor Accounts
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21069692.svg)](https://doi.org/10.5281/zenodo.21069692)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21069692-blue.svg)](https://doi.org/10.5281/zenodo.21069692)
 
 **Alexander Vityaz** ([ORCID 0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881)) · Corezoid Inc., Dnipro, Ukraine
 **Published:** June 2026 · **Version:** v1 · **License:** [CC BY 4.0](../../LICENSE-CC-BY-4.0)
@@ -36,6 +36,8 @@ This article develops a formal framework for conceptualising and accounting for 
 
 - Builds on [Active Transaction Graphs](../2026-active-transaction-graphs/) — supplies the transaction-trace language (result, trace, and ledger semantics) in which the traceable link between debt, party, risk, and consequence is implemented (§6.5).
 - Cited by [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/) — which uses the recognition and attribution rules developed here as the accounting layer for materialised boundary losses.
+- Cited by [A Phase Model of Enterprise Evolution](../2026-phase-model-of-enterprise-evolution/) and [Company Brain](../2026-company-brain/) — which treat management debt as the economic shadow of unsuppressed organisational noise.
+- Cited by [What Is Work](../2026-what-is-work/).
 - **Part II — in preparation.** It covers the account structure and posting mechanics of double-entry actor accounts, the procedure for determining shares in distributed attribution (including a case with multiple Decision Owners), and the platform implementation of the accounting model. Not yet part of this repository.
 
 ## Links
