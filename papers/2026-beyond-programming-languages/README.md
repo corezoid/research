@@ -5,7 +5,7 @@
 **Alexander Vityaz** ([ORCID 0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881)) · Corezoid Inc., Dnipro, Ukraine
 **Published:** July 2026 · **Version:** v1 · **License:** [CC BY 4.0](../../LICENSE-CC-BY-4.0)
 
-> **Note.** This is the English version of the Russian Substack essay «После языков программирования» (rev. 2.3, 28 July 2026). The Russian original is kept in the private drafts repository (corezoid/research-drafts) and is not part of this public corpus.
+> **Note.** This is the author's English version of the Russian Substack essay «После языков программирования» (rev. 2.3, 28 July 2026).
 
 ## Abstract
 

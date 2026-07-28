@@ -38,7 +38,7 @@ Papers with a `zenodo` DOI have Zenodo as the version of record; papers with an 
 
 ### In preparation
 
-Work in progress is reviewed privately in [`corezoid/research-drafts`](https://github.com/corezoid/research-drafts) and appears here on publication:
+Work in progress is reviewed privately and appears here on publication:
 
 - **Management Debt — Part II**: account structure, double-entry attribution, platform implementation *(announced in Part I)*
 - **The Actor Codex** — book, working draft *(Chapter X cited in The Computable Boundary of the Firm)*

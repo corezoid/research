@@ -1,6 +1,6 @@
 # Publishing workflow
 
-The full lifecycle of a paper, from draft to published and versioned. Drafting happens in the private repo [`corezoid/research-drafts`](https://github.com/corezoid/research-drafts); this repository holds only published work.
+The full lifecycle of a paper, from draft to published and versioned. Drafting happens in a private drafts repository (`research-drafts`, internal); this repository holds only published work.
 
 ## Lifecycle at a glance
 
