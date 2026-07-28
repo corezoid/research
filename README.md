@@ -99,7 +99,6 @@ The full lifecycle — drafting, review, Zenodo DOI deposit, publication, versio
 ## Roadmap
 
 - [ ] Rendered reading site (Quarto + GitHub Pages) once the repository is public
-- [ ] English/Ukrainian versions of the Russian-language works, with Zenodo DOIs
 - [ ] Zenodo deposits (and DOIs) for the papers whose version of record is currently ResearchGate — first *What Is Work* and *Metaunderstanding*, which have no DOI at all
 - [ ] Markdown reading versions for the PDF-only papers
 - [ ] Zenodo–GitHub release integration for collection snapshots
