@@ -1,0 +1,29 @@
+name: verify corpus invariants
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1" # weekly: catches silent drift of Zenodo deposits / dead DOIs
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate CITATION.cff
+        run: |
+          pip install --quiet cffconvert
+          cffconvert --validate -i CITATION.cff
+
+      - name: Relative markdown links resolve
+        run: python tools/check_links.py .
+
+      - name: Corpus invariants (manifest, checksums vs Zenodo, DOIs, bibtex sync, citation graph)
+        run: python tools/verify.py

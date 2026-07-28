@@ -77,6 +77,7 @@ graph BT
     MD1 -->|cites| ATG
     OT1 -->|cites| ATG
     OT1 -->|cites| CBF
+    OT2 -->|cites| ATG
     OT2 -->|cites| OT1
     OT3 -->|cites| OT1
     OT3 -->|cites| OT2

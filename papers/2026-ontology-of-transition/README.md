@@ -86,7 +86,7 @@ Per the citation guidance above, cite the individual part (`vityaz2026ontology1`
 
 ## Related work in this repository
 
-- **Builds on** [Active Transaction Graphs](../2026-active-transaction-graphs/) — the foundational framework of the corpus; cited by Parts I and III for mediated interaction, execution traces, and observational metadata.
+- **Builds on** [Active Transaction Graphs](../2026-active-transaction-graphs/) — the foundational framework of the corpus; cited directly by Part I for mediated interaction, execution traces, and observational metadata.
 - **Builds on** [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/) — cited by Parts I and III for the treatment of the system boundary as an explicit information-bearing object of control, which Part III's reset-work attribution requires.
 
 ## Links

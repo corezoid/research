@@ -44,7 +44,7 @@ This paper is foundational for the collection; it does not cite the other papers
 
 - Cited by [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/)
 - Cited by [Management Debt—Part I](../2026-management-debt-part-i/)
-- Cited by [Ontology of Transition—Part I](../2026-ontology-of-transition/part-i/) and [Part III](../2026-ontology-of-transition/part-iii/)
+- Cited by [Ontology of Transition—Part I](../2026-ontology-of-transition/part-i/) and [Part II](../2026-ontology-of-transition/part-ii/)
 - Cited by [Regulatory Quality of Asymptotic Models](../2026-regulatory-quality-asymptotic-models/)
 - Cited by [Company Brain](../2026-company-brain/)
 - Cited by [Beyond Programming Languages](../2026-beyond-programming-languages/)

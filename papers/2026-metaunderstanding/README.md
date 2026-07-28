@@ -34,7 +34,7 @@ The paper rests on three tiers of claims: classical scientific results (Conantâ€
 ```bibtex
 @misc{vityaz2026metaunderstanding,
   author       = {Vityaz, Alexander},
-  title        = {Metaunderstanding: Recursive Compression, TAG ACCOUNTS, and ACTOR GRAPHS as the Next Layer of Mind in the Age of AI},
+  title        = {Metaunderstanding: Recursive Compression, Tag Accounts, and Actor Graphs as the Next Layer of Mind in the Age of AI},
   year         = {2026},
   month        = apr,
   howpublished = {Preprint, ResearchGate},

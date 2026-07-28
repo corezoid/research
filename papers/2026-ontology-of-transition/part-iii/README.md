@@ -60,7 +60,7 @@ To cite the architecture and conclusions of the three-part work as a whole, use 
 - **Builds on** [Ontology of Transition — Part I](../part-i/) — supplies the external-clock architecture: causal order, the selected clock subsystem, the delivery channel *K*(C→S), and the separation principle whose cost taxonomy §14 closes the loop with.
 - **Builds on** [Ontology of Transition — Part II](../part-ii/) — its Theorem II.A and Theorem II.D become Floors 1 and 2 of the three-floor synthesis in §10; Part III adds Floor 3.
 - **Builds on** [The Computable Boundary of the Firm](../../2026-computable-boundary-of-the-firm/) — cited (ref. [18]) for the formal treatment of the system boundary as an explicit information-bearing object of control, which the reset-work attribution of Theorem III.1 requires.
-- **Builds on** [Active Transaction Graphs](../../2026-active-transaction-graphs/) — the foundational framework of the corpus, reached through Part I and the boundary paper.
+- **See also** [Active Transaction Graphs](../../2026-active-transaction-graphs/) — the foundational framework of the corpus; not cited directly here, reached through Part I and the boundary paper.
 
 ## Links
 

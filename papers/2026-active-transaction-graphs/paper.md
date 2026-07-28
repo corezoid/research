@@ -710,4 +710,4 @@ Interactive notebook: [NotebookLM](https://notebooklm.google.com/notebook/a815ac
 
 [9] J. Cheney, L. Chiticariu, and W.-C. Tan. Provenance in Databases: Why, How, and Where. *Foundations and Trends in Databases*, 1(4):379–474, 2009.
 
-[10] O. Vityaz. On the Necessity of Noise Suppression for Minimal Good Regulators: Factorization Theorems and a Closure Conjecture. ResearchGate preprint, January 2026. [doi:10.13140/RG.2.2.33143.07843](https://doi.org/10.13140/RG.2.2.33143.07843).
+[10] A. Vityaz. On the Necessity of Noise Suppression for Minimal Good Regulators: Factorization Theorems and a Closure Conjecture. ResearchGate preprint, January 2026. [doi:10.13140/RG.2.2.33143.07843](https://doi.org/10.13140/RG.2.2.33143.07843).

@@ -17,7 +17,9 @@ Programming languages historically combined two functions: making human intent i
 
 | File | Description |
 |------|-------------|
-| [paper.pdf](paper.pdf) | Canonical PDF (author's copy of the ResearchGate deposit) |
+| [paper.pdf](paper.pdf) | Author's copy from the ResearchGate deposit (13 pp.) |
+
+> **Version note.** This PDF is the author's expanded ResearchGate text (13 pages) and **differs from the Zenodo v1 deposit** (9 pages) under the DOI above. When citing a specific page or section, use the Zenodo version of record. Reconciliation (depositing this text as v2 on Zenodo) is pending the author's decision.
 
 ## How to cite
 

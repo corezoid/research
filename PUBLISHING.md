@@ -74,7 +74,7 @@ Create a GitHub Release from the tag, titled `<Paper title> v1`, with the abstra
 
 ResearchGate, Substack, LinkedIn, etc. are **distribution channels, not the citation target**. Always reference the Zenodo DOI:
 
-- ResearchGate does **not** mint DOIs — when adding the paper there, paste the Zenodo DOI into the DOI field;
+- ResearchGate is not the version of record. Historical `10.13140/RG.2.2.*` DOIs (generated on RG for some earlier uploads) remain valid, but an RG-hosted text can be replaced without version history — so for new papers mint the DOI on Zenodo and paste it into RG's DOI field instead of generating one there;
 - Substack/blog posts should link to the DOI and to the paper folder here.
 
 ## 7. Revisions (v2, v3, …)
