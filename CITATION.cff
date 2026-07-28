@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: >-
+  If you reference this collection, please cite the individual paper you use
+  (see papers/*/README.md for per-paper citations and DOIs). To cite the
+  collection as a whole, use the metadata below.
+title: "Corezoid Research: papers by Alexander Vityaz"
+authors:
+  - family-names: Vityaz
+    given-names: Alexander
+    affiliation: "Corezoid Inc., Dnipro, Ukraine"
+    orcid: "https://orcid.org/0009-0006-0489-7881"
+repository-code: "https://github.com/corezoid/research"
+url: "https://github.com/corezoid/research"
+license: CC-BY-4.0
+keywords:
+  - actor model
+  - active transaction graphs
+  - transactional interactive systems
+  - theory of the firm
+  - management debt
+  - process ontology
+  - causal order
+  - external time
+preferred-citation:
+  type: article
+  title: "Active Transaction Graphs: A Formal Framework for Transactional Interactive Systems"
+  authors:
+    - family-names: Vityaz
+      given-names: Alexander
+      affiliation: "Corezoid Inc., Dnipro, Ukraine"
+      orcid: "https://orcid.org/0009-0006-0489-7881"
+  year: 2026
+  month: 3
+  doi: 10.5281/zenodo.20747873
+  url: "https://doi.org/10.5281/zenodo.20747873"
+  publisher:
+    name: Zenodo
