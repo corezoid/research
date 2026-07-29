@@ -70,7 +70,9 @@ def head_status(url):
         return f"network-error: {e}"
 
 
-manifest = json.load(open(os.path.join(ROOT, "tools/manifest.json")))["papers"]
+_m = json.load(open(os.path.join(ROOT, "tools/manifest.json")))
+manifest = _m["papers"]
+patents = _m.get("patents", [])
 by_path = {p["path"]: p for p in manifest}
 
 # 1. coverage: find every dir under papers/ that holds a paper artifact
@@ -157,6 +159,45 @@ for p in manifest:
         fail(f"bibtex: {p['path']} README block differs from bibliography.bib entry {p['citekey']}")
     else:
         ok(f"bibtex: {p['path']} in sync")
+
+# 5b. patents: coverage, files, bibtex sync, no graph-relation wording
+pat_by_path = {p["path"]: p for p in patents}
+pat_found = set()
+patents_root = os.path.join(ROOT, "patents")
+if os.path.isdir(patents_root):
+    for dirpath, dirs, files in os.walk(patents_root):
+        if "patent.pdf" in files:
+            pat_found.add(os.path.relpath(dirpath, ROOT))
+for path in sorted(pat_found - set(pat_by_path)):
+    fail(f"patents: {path} exists but is not in tools/manifest.json")
+for path in sorted(set(pat_by_path) - pat_found):
+    fail(f"patents: {path} is in the manifest but has no patent.pdf on disk")
+for p in patents:
+    d = os.path.join(ROOT, p["path"])
+    if not os.path.exists(os.path.join(d, "README.md")):
+        fail(f"patents: {p['path']} missing README.md")
+        continue
+    readme = open(os.path.join(d, "README.md"), encoding="utf-8").read()
+    if re.search(r"-\s*\*{0,2}(Builds on|Cited by)", readme):
+        fail(f"patents: {p['path']} uses 'Builds on/Cited by' — patents must use 'See also' (they are outside the papers citation graph)")
+if patents and pat_found == set(pat_by_path):
+    ok(f"patents: {len(patents)} patent folders match the manifest")
+
+for p in patents:
+    d = os.path.join(ROOT, p["path"])
+    if not os.path.exists(os.path.join(d, "README.md")):
+        continue
+    readme = open(os.path.join(d, "README.md"), encoding="utf-8").read()
+    m = re.search(r"```bibtex\n(.*?)```", readme, re.S)
+    entry = bib_entry(p["citekey"])
+    if not entry:
+        fail(f"patents bibtex: {p['citekey']} not found in bibliography.bib")
+    elif not m:
+        fail(f"patents bibtex: {p['path']}/README.md has no ```bibtex block")
+    elif norm(m.group(1)) != norm(entry):
+        fail(f"patents bibtex: {p['path']} README block differs from bibliography.bib entry {p['citekey']}")
+    else:
+        ok(f"patents bibtex: {p['path']} in sync")
 
 # 6. citation graph <-> Related work
 root_readme = open(os.path.join(ROOT, "README.md"), encoding="utf-8").read()

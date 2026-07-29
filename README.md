@@ -43,6 +43,20 @@ Work in progress is reviewed privately and appears here on publication:
 - **Management Debt — Part II**: account structure, double-entry attribution, platform implementation *(announced in Part I)*
 - **The Actor Codex** — book, working draft *(Chapter X cited in The Computable Boundary of the Firm)*
 
+## Patents
+
+USPTO patents by the same author underpinning the Corezoid/Middleware platform; full texts are public records.
+
+| Patent | Title | Filed | Granted | Status | PDF |
+|---|---|---|---|---|---|
+| [US11237835B2](patents/US11237835-api-controlled-universal-computing-elements/) | System and method for processing data of any external services through API controlled universal computing elements | 2019-01-18 | 2022-02-01 | Active | [PDF](patents/US11237835-api-controlled-universal-computing-elements/patent.pdf) |
+| [US11228570B2](patents/US11228570-safe-transfer-exchange-protocol/) | Safe-transfer exchange protocol based on trigger-ready envelopes among distributed nodes | 2019-03-01 | 2022-01-18 | Expired - Fee Related | [PDF](patents/US11228570-safe-transfer-exchange-protocol/patent.pdf) |
+| [US11093935B2](patents/US11093935-resource-saving-exchange-protocol/) | System and methods for a resource-saving exchange protocol based on trigger-ready envelopes among distributed nodes | 2018-09-18 | 2021-08-17 | Active - Reinstated | [PDF](patents/US11093935-resource-saving-exchange-protocol/patent.pdf) |
+| [US10776772B2](patents/US10776772-providing-or-sharing-access/) | Automated digital method and system of providing or sharing access | 2017-09-29 | 2020-09-15 | Active | [PDF](patents/US10776772-providing-or-sharing-access/patent.pdf) |
+| [US10565302B2](patents/US10565302-dialog-with-fillable-forms/) | Method of organizing dialog with the use of fillable forms | 2019-02-21 | 2020-02-18 | Active | [PDF](patents/US10565302-dialog-with-fillable-forms/patent.pdf) |
+| [US2022/0100554A1](patents/US20220100554-modifying-data-processing-method/) | System and method for modifying a data processing method | 2021-09-22 | — (pending) | Pending | [PDF](patents/US20220100554-modifying-data-processing-method/patent.pdf) |
+| [US2019/0007489A1](patents/US20190007489-condition-triggered-process/) | System and Methods for Running a Condition-Triggered Process Involving Movement of Objects from a Node to at least one other Node Until a Condition with a Set of Parameters Are Met By An Event | 2018-07-05 | — (pending) | Pending | [PDF](patents/US20190007489-condition-triggered-process/patent.pdf) |
+
 ## How the papers relate
 
 ```mermaid

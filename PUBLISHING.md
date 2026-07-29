@@ -88,6 +88,26 @@ Papers are versioned like arXiv: integer versions, each immutable.
 
 Old versions remain retrievable via git tags and via their Zenodo version DOIs.
 
+## Patents
+
+USPTO patents by the author live under `patents/`, one folder per patent **family**
+(application → A1 publication → B2 grant is one folder, arXiv-style), each with
+`README.md` + `patent.pdf` (the official publication — a public record, downloadable
+from Google Patents: `patents.google.com/patent/<number>/en` → citation_pdf_url).
+
+Rules:
+
+- **Only publicly published documents.** Granted patents (B2) and published
+  applications (A1) belong here. Provisional applications, unpublished filings, and
+  invention ideas stay in the private drafts repository until the USPTO publishes them.
+- When a tracked application publishes (A1) or grants (B2): add/update the family folder,
+  the `## Patents` table in the root README, the `@patent` entry in `bibliography.bib`,
+  and the entry in `tools/manifest.json` (CI enforces all of these).
+- Patent READMEs link thematically related papers with **"See also"** only — patents are
+  not part of the papers citation graph, and CI rejects `Builds on`/`Cited by` there.
+- Authoritative metadata source: the PDF's own front page (fields (45), (57), (72), (73)),
+  plus Google Patents for current legal status.
+
 ## Metadata rules
 
 - One human-authored source of truth: the paper's front matter + root `CITATION.cff`. Everything else (BibTeX, badges) is derived from it.

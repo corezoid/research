@@ -16,5 +16,14 @@
     {"path": "papers/2026-ontology-of-transition/part-iii", "pdf": "paper.pdf", "citekey": "vityaz2026ontology3", "node": "OT3", "doi": "10.5281/zenodo.21473025", "zenodo_id": 21473025, "rg_id": null, "has_md": true},
     {"path": "papers/2026-beyond-programming-languages", "pdf": "paper.pdf", "citekey": "vityaz2026beyondpl", "node": "BPL", "doi": "10.5281/zenodo.21458098", "zenodo_id": 21458098, "rg_id": 410613460, "has_md": false,
      "known_mismatch": "Repo holds the author's 13-page ResearchGate text; Zenodo v1 is the 9-page deposit. Pending author decision on a v2 deposit (recorded 2026-07-28). Remove this field once reconciled."}
+  ],
+  "patents": [
+    {"path": "patents/US11228570-safe-transfer-exchange-protocol", "pdf": "patent.pdf", "citekey": "vityazUS11228570", "number": "US11228570B2"},
+    {"path": "patents/US11093935-resource-saving-exchange-protocol", "pdf": "patent.pdf", "citekey": "vityazUS11093935", "number": "US11093935B2"},
+    {"path": "patents/US10776772-providing-or-sharing-access", "pdf": "patent.pdf", "citekey": "vityazUS10776772", "number": "US10776772B2"},
+    {"path": "patents/US11237835-api-controlled-universal-computing-elements", "pdf": "patent.pdf", "citekey": "vityazUS11237835", "number": "US11237835B2"},
+    {"path": "patents/US10565302-dialog-with-fillable-forms", "pdf": "patent.pdf", "citekey": "vityazUS10565302", "number": "US10565302B2"},
+    {"path": "patents/US20190007489-condition-triggered-process", "pdf": "patent.pdf", "citekey": "vityazUS20190007489", "number": "US20190007489A1"},
+    {"path": "patents/US20220100554-modifying-data-processing-method", "pdf": "patent.pdf", "citekey": "vityazUS20220100554", "number": "US20220100554A1"}
   ]
 }
