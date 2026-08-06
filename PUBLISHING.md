@@ -107,6 +107,10 @@ Rules:
   not part of the papers citation graph, and CI rejects `Builds on`/`Cited by` there.
 - Authoritative metadata source: the PDF's own front page (fields (45), (57), (72), (73)),
   plus Google Patents for current legal status.
+- After merging: tag `patents/<slug>/v1` and create a GitHub Release titled
+  `<Title> — <number>` (same convention as papers). When a tracked application later
+  grants, update the folder (rename to the grant number, replace the PDF) and edit the
+  existing release rather than minting a second one.
 
 ## Metadata rules
 
