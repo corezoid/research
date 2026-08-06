@@ -19,7 +19,7 @@ Disclosed herein are systems and methods for multi-system connectivity and autom
 | Application published | [US2021/0357277A1](https://patents.google.com/patent/US20210357277A1/en) | November 18, 2021 |
 | Patent granted | [US11941462B2](https://patents.google.com/patent/US11941462B2/en) | March 26, 2024 |
 
-Continuation-in-part of application 16/252,075 (now [US 11,237,835 B2](../US11237835-api-controlled-universal-computing-elements/)); continued by application 18/615,344 ([US 2024/0272968 A1](../US20240272968-api-controlled-universal-computing-elements/)).
+Continuation-in-part of application 16/252,075 (now [US 11,237,835 B2](../US11237835-api-controlled-universal-computing-elements/)); continued by application 18/615,344 (granted June 16, 2026 as [US 12,657,076 B2](../US12657076-api-controlled-universal-computing-elements/)).
 
 ## Files
 
