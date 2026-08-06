@@ -1,0 +1,57 @@
+# System and method for processing data of any external services through API controlled universal computing elements
+
+[![US Application](https://img.shields.io/badge/US%20Application-2024%2F0272968-blue.svg)](https://patents.google.com/patent/US20240272968A1/en)
+
+**Inventor:** Oleksandr Vityaz — the same author as [Alexander Vityaz](https://orcid.org/0009-0006-0489-7881) of the papers in this repository
+**Assignee:** Middleware, Inc., Wilmington, DE (US)
+**Application:** US 18/615,344 · **Filed:** March 25, 2024 · **Published:** US 2024/0272968 A1, August 15, 2024 · **Granted:** see note below
+**Legal status** (Google Patents, August 2026): Pending
+
+> **Grant note (August 2026).** The author reports this application has been granted (USPTO Issue Notification received); Google Patents and this page still show the pre-grant state. The grant number, issue date, and grant PDF will be added once the USPTO record propagates.
+
+## Abstract
+
+A method includes receiving, by a first universal computing element (UCE), from at least one application programming interface (API), a second UCE associated with another process of a first object. The first UCE transmits information including at least one parameter of the first object to the second UCE. The second UCE creates a second object including the at least one parameter of the first object, receives the second object, transmits a request to an API, and sets at least one parameter of the second object. A third UCE of a second process receives the second object and transmits information including the at least one parameter of the second object to a second UCE of the first process. The second UCE of the first process receives the first object, and sets at least one parameter of the first object based on the information.
+
+## Publication history
+
+| Event | Number | Date |
+|---|---|---|
+| Filed | US 18/615,344 | March 25, 2024 |
+| Application published | [US2024/0272968A1](https://patents.google.com/patent/US20240272968A1/en) | August 15, 2024 |
+| Patent granted | *number pending USPTO propagation* | reported August 2026 |
+
+Continuation of application 17/388,341 (now [US 11,941,462 B2](../US11941462-api-controlled-universal-computing-elements/)), which is a continuation-in-part of 16/252,075 (now [US 11,237,835 B2](../US11237835-api-controlled-universal-computing-elements/)).
+
+## Files
+
+| File | Description |
+|------|-------------|
+| [patent.pdf](patent.pdf) | Official application publication (USPTO, public record) |
+
+## How to cite
+
+> Vityaz, O. (2024). *System and method for processing data of any external services through API controlled universal computing elements*. US Patent Application 2024/0272968. U.S. Patent and Trademark Office.
+
+```bibtex
+@patent{vityazUS20240272968,
+  author   = {Vityaz, Oleksandr},
+  title    = {System and method for processing data of any external services through API controlled universal computing elements},
+  number   = {US 2024/0272968 A1},
+  year     = {2024},
+  assignee = {Middleware, Inc.},
+  note     = {Patent application; grant reported August 2026, grant number pending},
+  url      = {https://patents.google.com/patent/US20240272968A1/en}
+}
+```
+
+## Related work in this repository
+
+- **See also** [US 11,941,462 B2](../US11941462-api-controlled-universal-computing-elements/) — the parent grant this application continues
+- **See also** [US 11,237,835 B2](../US11237835-api-controlled-universal-computing-elements/) — the original UCE grant of the family
+- **See also** [Active Transaction Graphs](../../papers/2026-active-transaction-graphs/) — the formal framework whose executable process semantics the UCE architecture implements in engineering form
+
+## Links
+
+- Google Patents: https://patents.google.com/patent/US20240272968A1/en
+- USPTO Patent Center (application 18/615,344): https://patentcenter.uspto.gov/applications/18615344

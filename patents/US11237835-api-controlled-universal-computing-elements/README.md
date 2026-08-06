@@ -44,6 +44,7 @@ Continuation-in-part of application No. 15/268,802, filed on September 19, 2016,
 
 ## Related work in this repository
 
+- **See also** [US 11,941,462 B2](../US11941462-api-controlled-universal-computing-elements/) and [US 2024/0272968 A1](../US20240272968-api-controlled-universal-computing-elements/) — later grants/applications continuing this UCE family.
 - **See also** [Active Transaction Graphs](../../papers/2026-active-transaction-graphs/) — the universal computing element is the node primitive from which the paper's transaction graphs are composed.
 - **See also** [Beyond Programming Languages](../../papers/2026-beyond-programming-languages/) — the patent's claim that finite-state automata let non-programmers construct processes is the engineering basis for the paper's argument.
 
