@@ -38,6 +38,7 @@ We introduce a quantitative framework for measuring how well an asymptotic model
 
 - Builds on [On the Necessity of Noise Suppression for Minimal Good Regulators](../2026-noise-suppression-minimal-good-regulators/) — reference [8]; Section 6.3 uses the present framework as a concrete case study for the noise suppression necessity result.
 - Builds on [Active Transaction Graphs](../2026-active-transaction-graphs/) — reference [9], cited in Section 6.5 as a non-arithmetic application domain for the framework.
+- Cited by [The Compact Company](../2026-compact-company/) — which uses the critical scale of model quality to bound the classes of situations in which the human core can safely contract.
 
 ## Links
 

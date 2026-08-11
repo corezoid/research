@@ -37,6 +37,7 @@ In the practice of digital twins of organizations (DTOs), the boundary of the en
 - Builds on [Active Transaction Graphs](../2026-active-transaction-graphs/) — the transactional interpretation of actors used to crystallize boundary representation into the *Actor∂S* root object (§6).
 - Builds on [Management Debt — Part I](../2026-management-debt-part-i/) — supplies the recognition and attribution rules under which materialised boundary losses may be posted to the responsible Decision Owner (§4, §6).
 - Cited by [Ontology of Transition — Part I](../2026-ontology-of-transition/part-i/) and [Part III](../2026-ontology-of-transition/part-iii/).
+- Cited by [The Compact Company](../2026-compact-company/) — which refines the boundary from topological membership and permeability into a transactional operator attributing each action across authority, accountability, data regime, economic outcome, and control.
 - Also cites *The Actor Codex, Chapter X. The Boundaries of the Firm* (working draft, in preparation) — not part of this repository.
 
 ## Links

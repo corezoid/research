@@ -36,6 +36,7 @@ The paper asks what work is from an informational point of view, and whether AI 
 
 - Builds on [On the Necessity of Noise Suppression for Minimal Good Regulators](../2026-noise-suppression-minimal-good-regulators/) — supplies the Vityaz–Ashby factorization theorem and the determinism requirement on the filter, on which the essay's Law of Factorization and its §§7 and 9 architectural argument rest (reference 20).
 - Builds on [Management Debt—Part I](../2026-management-debt-part-i/) — supplies the management-debt accounting to which the essay attributes the measurable losses of the degraded human+AI configuration (reference 21).
+- Cited by [The Compact Company](../2026-compact-company/) — which uses the information-theoretic argument that verification and correction remain positive work when the first LLM output is fast (reference [59]).
 
 ## Links
 

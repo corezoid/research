@@ -88,6 +88,7 @@ Per the citation guidance above, cite the individual part (`vityaz2026ontology1`
 
 - **Builds on** [Active Transaction Graphs](../2026-active-transaction-graphs/) — the foundational framework of the corpus; cited directly by Part I for mediated interaction, execution traces, and observational metadata.
 - **Builds on** [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/) — cited by Parts I and III for the treatment of the system boundary as an explicit information-bearing object of control, which Part III's reset-work attribution requires.
+- Cited by [Quantum Learning](../2026-quantum-learning/) — which cites the complete volume for the treatment of transition and the record of a state change underlying the learning quantum.
 
 ## Links
 

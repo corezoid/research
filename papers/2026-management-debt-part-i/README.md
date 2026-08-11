@@ -38,6 +38,8 @@ This article develops a formal framework for conceptualising and accounting for 
 - Cited by [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/) — which uses the recognition and attribution rules developed here as the accounting layer for materialised boundary losses.
 - Cited by [A Phase Model of Enterprise Evolution](../2026-phase-model-of-enterprise-evolution/) and [Company Brain](../2026-company-brain/) — which treat management debt as the economic shadow of unsuppressed organisational noise.
 - Cited by [What Is Work](../2026-what-is-work/).
+- Cited by [The Compact Company](../2026-compact-company/) — which gives the concept an architectural continuation: incomplete policy produces indeterminate transactions, and hidden instructions create *rule debt*.
+- Cited by [Quantum Learning](../2026-quantum-learning/) — which extends the actor-accounting logic developed here into a traceable chain of accountability for the qualification claim.
 - **Part II — in preparation.** It covers the account structure and posting mechanics of double-entry actor accounts, the procedure for determining shares in distributed attribution (including a case with multiple Decision Owners), and the platform implementation of the accounting model. Not yet part of this repository.
 
 ## Links

@@ -42,6 +42,7 @@ This paper's reference list is entirely to external literature; it does not cite
 - Cited by [Regulatory Quality of Asymptotic Models](../2026-regulatory-quality-asymptotic-models/)
 - Cited by [A Phase Model of Enterprise Evolution](../2026-phase-model-of-enterprise-evolution/) and [Company Brain](../2026-company-brain/) — which derive enterprise phase transitions from the factorisation necessity theorem
 - Cited by [What Is Work](../2026-what-is-work/) (Vityaz–Ashby factorization and filter determinism) and [Metaunderstanding](../2026-metaunderstanding/) (Noise Suppression Theorem)
+- Cited by [The Compact Company](../2026-compact-company/) — which takes the factorisation of the minimal regulator as the basis for its distributed human, agentic, and digital regulatory layers
 
 ## Links
 

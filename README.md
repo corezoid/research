@@ -25,6 +25,8 @@ Every paper is published as an immutable, citable record on [Zenodo](https://zen
 | 9 | [Management Debt — Part I: Concept, Metrics, and Principles for Attributing Materialised Debts to Actor Accounts](papers/2026-management-debt-part-i/) | Jun 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21069692-blue.svg)](https://doi.org/10.5281/zenodo.21069692) | [PDF](papers/2026-management-debt-part-i/paper.pdf) · [MD](papers/2026-management-debt-part-i/paper.md) |
 | 10 | [Ontology of Transition: Causal Order, External Time, and the Thermodynamics of Physical Clock Records](papers/2026-ontology-of-transition/) *(three-part series + complete volume)* | Jul 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21380580-blue.svg)](https://doi.org/10.5281/zenodo.21380580) | [Volume PDF](papers/2026-ontology-of-transition/volume.pdf) · [Part I](papers/2026-ontology-of-transition/part-i/) · [Part II](papers/2026-ontology-of-transition/part-ii/) · [Part III](papers/2026-ontology-of-transition/part-iii/) |
 | 11 | [Beyond Programming Languages](papers/2026-beyond-programming-languages/) | Jul 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21458098-blue.svg)](https://doi.org/10.5281/zenodo.21458098) | [PDF](papers/2026-beyond-programming-languages/paper.pdf) |
+| 12 | [Quantum Learning: From Educational Programs to Managing Changes in Human Capability](papers/2026-quantum-learning/) | Jul 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21704460-blue.svg)](https://doi.org/10.5281/zenodo.21704460) | [PDF](papers/2026-quantum-learning/paper.pdf) · [MD](papers/2026-quantum-learning/paper.md) |
+| 13 | [The Compact Company: An Actor-Graph Theory of the Firm in the LLM Era](papers/2026-compact-company/) | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21774758-blue.svg)](https://doi.org/10.5281/zenodo.21774758) | [PDF](papers/2026-compact-company/paper.pdf) · [MD](papers/2026-compact-company/paper.md) |
 
 ### Ontology of Transition — parts
 
@@ -77,6 +79,8 @@ graph BT
     OT2["Ontology of Transition<br/>Part II (Jul 2026)"]
     OT3["Ontology of Transition<br/>Part III (Jul 2026)"]
     BPL["Beyond Programming<br/>Languages (Jul 2026)"]
+    QL["Quantum Learning<br/>(Jul 2026)"]
+    CC["Compact Company<br/>(Aug 2026)"]
 
     RQ -->|cites| NS
     RQ -->|cites| ATG
@@ -100,6 +104,17 @@ graph BT
     OT3 -->|cites| OT2
     OT3 -->|cites| CBF
     BPL -->|cites| ATG
+    CC -->|cites| ATG
+    CC -->|cites| CBF
+    CC -->|cites| NS
+    CC -->|cites| RQ
+    CC -->|cites| CB
+    CC -->|cites| PM
+    CC -->|cites| MU
+    CC -->|cites| WIW
+    CC -->|cites| MD1
+    QL -->|cites| ATG
+    QL -->|cites| MD1
 ```
 
 Two papers anchor the corpus: *On the Necessity of Noise Suppression* (the cybernetic necessity result) and *Active Transaction Graphs* (the formal actor/graph/ledger framework); the other papers build on one or both.

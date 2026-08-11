@@ -48,6 +48,8 @@ This paper is foundational for the collection; it does not cite the other papers
 - Cited by [Regulatory Quality of Asymptotic Models](../2026-regulatory-quality-asymptotic-models/)
 - Cited by [Company Brain](../2026-company-brain/)
 - Cited by [Beyond Programming Languages](../2026-beyond-programming-languages/)
+- Cited by [Quantum Learning](../2026-quantum-learning/)
+- Cited by [The Compact Company](../2026-compact-company/) — which inherits the actor, transaction, active edge, recursion, and ledger semantics as the formal substrate of its theory of the firm
 
 ## Links
 

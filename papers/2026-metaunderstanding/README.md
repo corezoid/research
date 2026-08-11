@@ -45,6 +45,7 @@ The paper rests on three tiers of claims: classical scientific results (Conant�
 ## Related work in this repository
 
 - Builds on [On the Necessity of Noise Suppression for Minimal Good Regulators](../2026-noise-suppression-minimal-good-regulators/) — supplies the Noise Suppression Theorem $\pi^* = g \circ \sigma_{prag}$ that this manifesto takes as its architectural premise and cites for the proof (reference [7]).
+- Cited by [The Compact Company](../2026-compact-company/) — which draws on the idea of pragmatic policy compression in its regulatory line (reference [58]).
 
 ## Links
 

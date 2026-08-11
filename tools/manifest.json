@@ -15,7 +15,9 @@
     {"path": "papers/2026-ontology-of-transition/part-ii", "pdf": "paper.pdf", "citekey": "vityaz2026ontology2", "node": "OT2", "doi": "10.5281/zenodo.21472271", "zenodo_id": 21472271, "rg_id": null, "has_md": true},
     {"path": "papers/2026-ontology-of-transition/part-iii", "pdf": "paper.pdf", "citekey": "vityaz2026ontology3", "node": "OT3", "doi": "10.5281/zenodo.21473025", "zenodo_id": 21473025, "rg_id": null, "has_md": true},
     {"path": "papers/2026-beyond-programming-languages", "pdf": "paper.pdf", "citekey": "vityaz2026beyondpl", "node": "BPL", "doi": "10.5281/zenodo.21458098", "zenodo_id": 21458098, "rg_id": 410613460, "has_md": false,
-     "known_mismatch": "Repo holds the author's 13-page ResearchGate text; Zenodo v1 is the 9-page deposit. Pending author decision on a v2 deposit (recorded 2026-07-28). Remove this field once reconciled."}
+     "known_mismatch": "Repo holds the author's 13-page ResearchGate text; Zenodo v1 is the 9-page deposit. Pending author decision on a v2 deposit (recorded 2026-07-28). Remove this field once reconciled."},
+    {"path": "papers/2026-quantum-learning", "pdf": "paper.pdf", "citekey": "vityaz2026quantumlearning", "node": "QL", "doi": "10.5281/zenodo.21704460", "zenodo_id": 21704460, "rg_id": 411010035, "has_md": true},
+    {"path": "papers/2026-compact-company", "pdf": "paper.pdf", "citekey": "vityaz2026compactcompany", "node": "CC", "doi": "10.5281/zenodo.21774758", "zenodo_id": 21774758, "rg_id": 411189149, "has_md": true}
   ],
   "patents": [
     {"path": "patents/US11228570-safe-transfer-exchange-protocol", "pdf": "patent.pdf", "citekey": "vityazUS11228570", "number": "US11228570B2"},
