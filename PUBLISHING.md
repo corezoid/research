@@ -137,6 +137,14 @@ Rules:
   *in preparation*, or link the outlet's own English version where one was published.
 - Verify each original URL still resolves when editing the table; several outlets block
   automated fetches, so check with a browser user agent before concluding a link is dead.
+- **Recorded conversations are linked, never transcribed.** Video and podcast appearances go in
+  the `## Video and podcast` table with the recording as the source. Do not commit a transcript
+  reconstructed from machine-generated captions: auto-captions arrive without punctuation and
+  mis-hear exactly the terms that matter (in the 2020 Большая Рыба interview, "Corezoid" is
+  absent from the Russian auto-captions and "Витязь" appears once against eight false
+  positives). A quotation the speaker never said is worse than no transcript. Only a
+  transcript checked against the recording by a person may be added, and then it is labelled
+  as such.
 
 ## Metadata rules
 
