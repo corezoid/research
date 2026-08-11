@@ -62,6 +62,12 @@ USPTO patents by the same author underpinning the Corezoid/Middleware platform; 
 | [US2022/0100554A1](patents/US20220100554-modifying-data-processing-method/) | System and method for modifying a data processing method | 2021-09-22 | — (pending) | Pending | [PDF](patents/US20220100554-modifying-data-processing-method/patent.pdf) |
 | [US2019/0007489A1](patents/US20190007489-condition-triggered-process/) | System and Methods for Running a Condition-Triggered Process Involving Movement of Objects from a Node to at least one other Node Until a Condition with a Set of Parameters Are Met By An Event | 2018-07-05 | — (pending) | Pending | [PDF](patents/US20190007489-condition-triggered-process/patent.pdf) |
 
+## Interviews and public conversations
+
+Public interviews and profiles documenting the development of ideas later formalized in the Corezoid Research corpus. They are context rather than contributions, and so sit outside the citation graph below.
+
+[Browse the curated archive](interviews/)
+
 ## How the papers relate
 
 ```mermaid

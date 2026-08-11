@@ -1,0 +1,92 @@
+# The Main Actor
+
+**Outlet:** Forbes Ukraine · **Published:** December 3, 2020 (sixth issue of Forbes magazine, December 2020)
+**Original title:** «Олександр Вітязь був провідним інноватором ПриватБанку. Йому непогано й у вільному плаванні»
+**Original language:** Ukrainian · **Original:** https://forbes.ua/news/golovniy-aktor-03122020-653
+
+> Unofficial English translation of the Forbes Ukraine profile, provided for readers of this
+> repository. The Ukrainian text at the link above is the version of record. Copyright in the
+> original article and in the accompanying infographics (by Leonid Lukashenko) belongs to
+> Forbes Ukraine; the two infographics are not reproduced here — see the original article.
+> The translation is provided under the same terms as the rest of this repository's text
+> ([CC BY 4.0](../../LICENSE-CC-BY-4.0)), which does not extend to the underlying article.
+
+---
+
+## Alexander Vityaz Was PrivatBank’s Leading Innovator. He’s Doing Quite Well on His Own
+
+Alexander Vityaz, 51, meets a Forbes reporter in his office on the ground floor of the “Vezhi” residential complex in Dnipro. He is wearing jeans and a blue sweater, with large glasses perched on his nose. He speaks calmly, jokes often, and immediately notices when his interlocutor loses the thread of the conversation.
+
+At first glance, the office appears frozen in place—lockdown. The impression is deceptive. Behind the scenes of remote work, Corezoid is being built: an operating system for business that helps companies in Ukraine and around the world become faster and more agile. It was once exclusive to PrivatBank; now anyone can use it for about a hundred dollars. The product’s name is no accident: it combines the terms “core” and “reproductive cell.” The project’s developer, Middleware, is also named after a technical term for connecting software. Vityaz is meticulous about meaning.
+
+He asks that the meeting, which stretches to four hours, not be recorded. The conversation ends with a presentation whose final slide is an abstract depiction of the universe as a graph. “Is everything clear?” Vityaz asks with a smile. He eventually answers Forbes’s questions in writing. “Alexander Pavlovych is a man of books,” explains his marketing manager, Serhii Danylenko.
+
+This is no figure of speech. Before the meeting, Vityaz asks the reporter to read Lawrence Harrison’s *Cultural Capital and the End of Multiculturalism*. He is captivated by the idea that the progressiveness of people, companies and societies can be measured. As they part, Vityaz hands over Jason Fung’s healthy-eating book *Wild Hormone*, with the instruction: “This is not about medicine. It is about the ability to build logical connections!”
+
+This is the entrepreneur’s signature style. Former and current colleagues alike, regardless of how they feel about him, address him by his first name and patronymic. “Alexander Pavlovych can overwhelm you with his authority. You have to prove to him that you are worth something,” says Anatolii Rohalskyi. Today he heads marketing at monobank; in 2015–2016 he worked under Vityaz at PrivatBank. “I remember him sending me an English-language book about Turing at midnight and suggesting we discuss it at the morning meeting,” recalls Yehor Avetisov, who served as PrivatBank’s head of innovation until October 2020. He calls his time under Vityaz the most productive period of his professional development.
+
+For a decade and a half, Vityaz helped PrivatBank remain not only the country’s largest financial institution but also its most technologically advanced. He joined the bank in 1996. At first he worked in the Donetsk branch, where he set up rapid card issuance by ferrying cards from Dnipropetrovsk by taxi. He moved to head office in 2000 at the invitation of Oleksandr Dubilet—the chairman of the board and the most authoritative figure in the old PrivatBank. Dubilet had taken an interest in an article Vityaz wrote for the corporate magazine, describing the principles of mobile banking. A book also helped Vityaz strengthen his standing at PrivatBank: Bill Gates’s *Business @ the Speed of Thought*, which he introduced to Dubilet.
+
+Under Vityaz, who headed the Electronic Business Center, PrivatBank launched SMS and online banking, introduced P2P transfers, and created the LiqPay electronic payment system and Privat24. This is only a partial list of the Donetsk innovator’s achievements: his website lists more than 20 projects, patents and proprietary features he developed.
+
+After PrivatBank was nationalized, Vityaz left to build his own company, Middleware. Its flagship product is Corezoid, an operating system that lets companies automate business processes quickly. Vityaz had developed it while still at PrivatBank: at its peak, the bank ran more than 30,000 processes on the platform, from service discounts to email campaigns. From mid-2016, the bank used Corezoid under contract, Vityaz says. He had intended to take the project out from under PrivatBank’s umbrella in 2017. Nationalization in December 2016 accelerated those plans.
+
+The separation proved both premature and fraught. PrivatBank first announced it would discontinue Corezoid in January 2019, and in March it released a version of Privat24 internet banking with a new design and back end. “Our contract expired. Corezoid has advantages, but it also has many shortcomings,” explained Serhii Kharytych, head of the Electronic Business Center. Vityaz tells a different story: PrivatBank stopped paying for its Corezoid license in August 2018 and had stopped paying for support even earlier. Vityaz is defending his position in court. PrivatBank declined to comment officially. “There is more emotion than legal substance in this situation,” company spokesman Oleh Serha wrote.
+
+Vityaz registered Middleware in the United States back in 2014, and in 2017 a Ukrainian representative office began operating under the name Middleware Europe. Vityaz owns 50% of the business; another 10%, he says, is reserved for options. The rest belongs to a family investment fund whose owners are undisclosed.
+
+Kharytych, who now works at Ukrgasbank, gave Forbes a more detailed account of the conflict between PrivatBank and Vityaz. “Corezoid is an evolution of a project written by the bank’s employees called ‘Conveyor 2.0,’” says the manager, who served as Vityaz’s first deputy before nationalization. According to him, in August 2018 the bank stopped using Corezoid and continued to use only remnants of software code developed before the operating system appeared. In Kharytych’s telling, Middleware was created to make it easier for the bank to pay for Amazon’s cloud infrastructure.
+
+Middleware’s first major success was a $4 million contract with Western Union in 2016 to develop several websites for accepting and processing payments between Ukraine and other countries, Kharytych says. Asked who owns the other half of the business, the banker answers evasively and, without naming names, points to PrivatBank’s former owners. “These people still work as a family, even if they no longer sit in the same office,” he says. Ihor Kolomoiskyi did not respond to a text message seeking comment.
+
+The licensing dispute is not Vityaz’s only lawsuit against his former employer. At the time of nationalization, he owned 0.17% of the bank. Unlike the other owners, Vityaz did not sign a letter transferring his shares to the state for UAH 1. “The Constitution was violated, and no good intentions can justify that,” he tells Forbes. One of his lawsuits is before the Court of Cassation; proceedings have only just been opened in the other case.
+
+Vityaz insists he is suing on principle, not for personal gain. He puts his chances of victory at 100%. Independent lawyers are more skeptical. “It is very difficult to assess whether Vityaz’s lawsuits are standalone disputes or elements of a broader strategy to regain the bank,” says Nadiia Denysiuk, senior lawyer at Axon Partners.
+
+Vityaz values the entrepreneurial capital of the nationalized PrivatBank at zero. “Even if we had continued working together, it would soon have run out of steam,” he says. “Not zero, but approaching it,” sighs Avetisov, who left Privat after 13 years. If innovation is no longer a priority for the state-owned bank, for Middleware it is the essence of the business.
+
+“We help companies become smart, just as Apple HomeKit makes your home smart,” Vityaz says of Corezoid, his main creation. “It is the most convenient and simplest process builder on the market,” says Oleksandr Hrytsiuk, founder of the Digital Business consultancy. “Using blocks and logical connections, you can assemble in a few hours what programmers would spend a month coding.”
+
+The system is offered in two forms: subscription and licensing, under which Corezoid’s core can be installed on the customer’s own server. Subscription prices range from $80 to $400 a month. A dedicated license and support start at $2,000 a month, says Mykola Nazarov, Nova Poshta’s director of IT infrastructure. Hrytsiuk says the basic cloud plan is enough for most small clients, such as online stores.
+
+“Time is more valuable than money,” Vityaz says, summing up Corezoid. “SAP—the German developer of ERP systems—offered one of our prospective clients in Ukraine a three-year project for UAH 260 million,” says Danylenko of Middleware. “First the tender, then a year of heroic ‘implementation.’” Danylenko guarantees that Corezoid will cost several times less and go live faster.
+
+It takes only a few hours to write and test code in Corezoid. A trained business analyst can do it, rather than a team of programmers. “The shortage of developers is only growing. As many people as possible need to be taught to design process logic,” says Jan Oberhauser, founder of the French automation service n8n.io. n8n.io and Corezoid operate in the niche of so-called low-code platforms—tools that let users program through a visual interface rather than writing code. It is a hot sector that will grow to $14 billion by 2024, research firm Forrester Research forecasts. Vityaz does not want to confine himself to such narrow boundaries. “Our goal is to make the path from idea to implementation as short as possible,” he says of Corezoid. “To find one right idea, you have to sift through 100 wrong ones.”
+
+Besides the processing engine, Middleware’s bot platform is also highly popular. It lets companies create sophisticated bots in messaging apps and consolidate customer support from several channels into a single internal interface. In three months and for $12,000, Synevo used Corezoid to build two bots: one for communicating with customers and another for training new employees. Uklon launched an omnichannel contact center; Megogo connected support through Apple Business Chat. A truly complex Corezoid bot starts at $50,000, says Dmytro Dzus, managing director of ArtJoker, a studio that develops turnkey digital products.
+
+Vityaz moved into communications out of necessity. PrivatBank pioneered SMS banking, but it paid dearly for it. “At the peak, we were paying telecom operators $20 million,” the businessman says. “It was effectively extortion and robbery.” Vityaz created Sender.Mobi, the bank’s own business messenger, which grew into a multifunctional communications hub.
+
+One of Middleware’s largest clients in Ukraine is PUMB. It moved its digital core—not just marketing and support—to Corezoid. “We learned to launch new products in weeks instead of stretching development over half a year,” says the bank’s chief technology officer Andrii Biehunov. A total of 1.8 billion operations pass through Vityaz’s processing engine at PUMB each month. PUMB also uses the DeepMemo module to personalize big data. It determines how to target customers with discounts and new services.
+
+Other Ukrainian banks are in no hurry to integrate Corezoid as deeply. Vityaz attributes this to a dislike of innovation. “The external environment and competition force you to change,” he says. “You do not feel it immediately, because the water in the pot heats up slowly.” Kharytych counters: “At Privat, Corezoid was shoved everywhere, whether it belonged there or not. The problem is that it does not meet enterprise-software reliability standards.” The system, he says, is not sufficiently fault-tolerant, and extreme simplicity does not help. A business analyst can inadvertently link several resource-intensive processes and bring everything to a halt.
+
+“The product is still great for marketing and testing hypotheses. It is simply not perfect,” Kharytych says. The team at monobank believes mission-critical banking tasks—payment processing, for example—should be handled by custom-built solutions.
+
+monobank runs all of its marketing activities and support on Vityaz’s engine. “Corezoid will not cause problems if process verification and testing are set up properly. But failures do happen,” Rohalskyi acknowledges. In his written replies to Forbes, Vityaz identifies bringing the product up to enterprise-software standards as one of the company’s priorities.
+
+Vityaz does not disclose Middleware’s financials, but boasts that the company has long been profitable. Revenue at the Ukrainian legal entity was UAH 19 million in 2019, down from UAH 34 million a year earlier, according to SPARK-Interfax. “That is the cost of utilities and office rent,” the founder waves it off. In his written response to a question about revenue, he offers an even vaguer formulation: “See the Lomonosov–Lavoisier law.” He employs 80 people, more than 80% of them former PrivatBank staff. Over the year, the company hired more than 20 people and opened another 17 positions.
+
+Vityaz calls his business a camel rather than a unicorn. The term was popularized by venture investor Alex Lazarov. Camels build healthy internal economics instead of chasing venture capital. Profit growth is the only thing the company is willing to boast about. “Last year we ranked 53rd on Inc. magazine’s list of the 5,000 fastest-growing companies in the United States,” Danylenko says. Then he clarifies: the company was ultimately left off the ranking because it has no employees in America.
+
+Payroll is a major expense for IT companies. Outsourcers spend more than half of what they earn on salaries, while large product companies can bring the figure down to 10% of revenue. Vityaz spends heavily on pay. “A representative annual payroll for a company like this should be around $2.4 million,” estimates Vadym Donchenko, founder of recruitment agency TalentIn. The U.S. entity, Middleware Inc., earned $5.5 million last year, according to the Dun & Bradstreet registry.
+
+Why not more? Corezoid is not the only player in this field, and certainly not the best known. “We are building a dynamic system; it is constantly evolving,” Vityaz says of the market structure. “Yesterday the competitors were one set of companies, today they are another, and the day after tomorrow they will be different again.”
+
+After parting ways with Vityaz, PrivatBank moved to IBM’s NODE-RED system. “It is a little more complex, but it is free and even more functional. We certainly did not have a collapse,” says PrivatBank developer Serhii Filipp. Another popular solution is Camunda, a process-automation system developed in Germany. It is distributed under an open-source model: the core product is free, while integration and support cost money. Camunda is used by T-Mobile, Allianz, Vodafone, Alfa-Bank and Tinkoff Bank. What do the Germans think of the Ukrainian competition? “We have never heard of Corezoid or Middleware,” says Camunda marketing director Gottfried Scheringer with a shrug.
+
+The explanation may lie less in the technical details than in the founder’s personality. “Do you know how a nuclear-powered aircraft carrier is built? First the reactor, then the hull,” says Yehor Avetisov, describing the managerial scale of his former boss. Several Middleware employees, speaking anonymously, describe Vityaz’s business style in greater detail. Micromanagement and the inviolability of the founder’s authority are pillars of Middleware’s corporate culture. “He is difficult. He can break a person psychologically,” Kharytych says.
+
+Vityaz’s influence is also visible in the marketing strategy. “Alexander Pavlovych is a man of lofty matters and formulas. That is how he promotes his product,” Rohalskyi says. In his view, Corezoid needs to become an accessible process marketplace with ready-made templates. That would lower the barrier to entry. “Middleware should offer several off-the-shelf solutions that users can deploy and test immediately,” agrees Yevhenii Hryshtopa, head of transformation and business analysis at Synevo.
+
+Vityaz says his company’s goal is to go public. He does not comment on its current valuation. The automation-solutions market has few established benchmarks. Investors valued Camunda at $120–180 million in 2018, according to Dealroom. Last year the German company generated about $29 million, or $145,000 per employee, the GrowJo service calculates. If the U.S. and Ukrainian entities are consolidated, Vityaz’s figures are more modest for now—up to $80,000 per employee. A company like this could be worth approximately $60–70 million, says Serhii Kravets, investment director at GR Capital.
+
+Whatever subjects Vityaz consistently avoids, there is one he discusses regularly: actor graphs. Control.Events, one of Corezoid’s modules, can represent any company as a schematic model and describe the processes within it. “Everything in the world is a structure. We created a protocol to depict it as an actor graph,” the Middleware founder says. “It looks grand and, at the same time, very simple.” One slide in the presentation briefly shows Middleware’s own company graph. The point at the center, where all the lines converge, is the main actor: Alexander Vityaz.
+
+---
+
+## Related work in this repository
+
+- **See also** [Active Transaction Graphs](../../papers/2026-active-transaction-graphs/) — the actor-graph protocol Vityaz describes at the end of the interview is formalized here.
+- **See also** [Company Brain](../../papers/2026-company-brain/) — "we help companies become smart" as an architecture of general company intelligence.
+- **See also** [The Computable Boundary of the Firm](../../papers/2026-computable-boundary-of-the-firm/) — representing a company as a schematic model and its processes as transactions.
