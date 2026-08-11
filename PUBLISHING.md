@@ -129,6 +129,11 @@ Rules:
   to the outlet or its illustrators are not reproduced, even when present in the
   translation source — this repository's CC BY 4.0 text license cannot be extended to
   them. Reference the original article instead, crediting the illustrator.
+- **Corezoid's own slides inside an outlet's article are ours.** Where a publication illustrates
+  an interview with diagrams the company supplied (credited to Corezoid, © corezoid.com), their
+  wording may be transcribed as `slides.md` — diagram labels are not selectable text and are
+  otherwise invisible to search and screen readers. Transcribe the wording; do not reproduce the
+  images, and keep the surrounding interview linked, not copied.
 - Every `english.md` opens with a provenance header: outlet, publication date, original
   title, original language, link to the original, and a note that the translation is
   unofficial and that copyright in the original belongs to the outlet.
