@@ -141,7 +141,7 @@ The full lifecycle — drafting, review, Zenodo DOI deposit, publication, versio
 - [ ] Zenodo deposits (and DOIs) for the papers whose version of record is currently ResearchGate — first *What Is Work* and *Metaunderstanding*, which have no DOI at all
 - [ ] Markdown reading versions for the PDF-only papers
 - [ ] Zenodo–GitHub release integration for collection snapshots
-- [ ] English versions of the remaining archived interviews (MMR 2015, LIGA.net 2019, Gagadget 2023)
+- [ ] Ukrainian-language interviews: link Ukrainian originals as reading versions where no translation is needed
 
 ## License
 
