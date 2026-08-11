@@ -112,6 +112,32 @@ Rules:
   grants, update the folder (rename to the grant number, replace the PDF) and edit the
   existing release rather than minting a second one.
 
+## Interviews
+
+Public interviews and profiles live under `interviews/`, indexed by the table in
+`interviews/README.md`, one folder per conversation named `<year>-<outlet>-<slug>/`.
+
+Rules:
+
+- **Primary sources, not contributions.** Interviews are outside the papers citation
+  graph: they use **"See also"** links only, never `Builds on`/`Cited by`, and they are
+  never added to `tools/manifest.json`, `bibliography.bib`, or the mermaid graph.
+- **Never re-host the original article.** Link to the outlet's URL as the version of
+  record. Only an English translation prepared for this repository is committed here, as
+  `english.md` (or `english.pdf`).
+- **Third-party media stays out.** Photographs, infographics and other artwork belonging
+  to the outlet or its illustrators are not reproduced, even when present in the
+  translation source — this repository's CC BY 4.0 text license cannot be extended to
+  them. Reference the original article instead, crediting the illustrator.
+- Every `english.md` opens with a provenance header: outlet, publication date, original
+  title, original language, link to the original, and a note that the translation is
+  unofficial and that copyright in the original belongs to the outlet.
+- **Do not link a translation before the file exists.** `tools/check_links.py` fails the
+  build on unresolvable relative links; rows awaiting a translation say
+  *in preparation*, or link the outlet's own English version where one was published.
+- Verify each original URL still resolves when editing the table; several outlets block
+  automated fetches, so check with a browser user agent before concluding a link is dead.
+
 ## Metadata rules
 
 - One human-authored source of truth: the paper's front matter + root `CITATION.cff`. Everything else (BibTeX, badges) is derived from it.

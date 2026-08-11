@@ -141,11 +141,13 @@ The full lifecycle — drafting, review, Zenodo DOI deposit, publication, versio
 - [ ] Zenodo deposits (and DOIs) for the papers whose version of record is currently ResearchGate — first *What Is Work* and *Metaunderstanding*, which have no DOI at all
 - [ ] Markdown reading versions for the PDF-only papers
 - [ ] Zenodo–GitHub release integration for collection snapshots
+- [ ] English versions of the remaining archived interviews (MMR 2015, LIGA.net 2019, Gagadget 2023)
 
 ## License
 
 - **Text, figures, and papers** (everything under `papers/`, all prose): [CC BY 4.0](LICENSE-CC-BY-4.0)
 - **Code and scripts** (build tooling, CI): [Apache 2.0](LICENSE)
 - **Bibliographic metadata** (`bibliography.bib`, `CITATION.cff`): public domain (CC0)
+- **Third-party material**: US patent texts under `patents/` are public records of the USPTO. Interview originals linked from [`interviews/`](interviews/) remain © their publishing outlets; only the translations and editorial notes in that folder are covered by CC BY 4.0.
 
 © Alexander Vityaz, Corezoid Inc.
