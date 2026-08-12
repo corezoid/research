@@ -169,6 +169,15 @@ Rules:
   transcript checked against the recording by a person may be added, and then it is labelled
   as such.
 
+## Announcements are not works
+
+Corezoid's blog announces some papers under its own editorial headline — *The Science of
+Effective Control* is the blog's title for *On the Necessity of Noise Suppression for Minimal
+Good Regulators*. Such a headline is not a separate work: link it from the paper's `## Links`
+section as a plain-language announcement, and never create a folder, citekey, or bibliography
+entry for it. When a title appears in a tracker or a content plan with no DOI and no PDF, check
+the blog before treating it as a missing publication.
+
 ## Metadata rules
 
 - One human-authored source of truth: the paper's front matter + root `CITATION.cff`. Everything else (BibTeX, badges) is derived from it.

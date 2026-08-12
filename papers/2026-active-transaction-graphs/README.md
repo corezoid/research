@@ -55,6 +55,7 @@ This paper is foundational for the collection; it does not cite the other papers
 
 - Version of record: https://doi.org/10.5281/zenodo.20747873
 - Interactive notebook (NotebookLM): https://notebooklm.google.com/notebook/a815acc0-5739-49f5-9cc4-f044c846e3d1
+- Plain-language announcement: [Active Transaction Graphs](https://corezoid.com/blog/active-transaction-graphs-research-announcement/) (Corezoid blog, March 16, 2026)
 
 ## Changelog
 

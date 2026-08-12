@@ -87,3 +87,4 @@ Today, no bank in the world can catch up with, outdo, or technologically replica
 
 - **See also** [Beyond Programming Languages](../../papers/2026-beyond-programming-languages/) — "we program less and less and do more and more engineering" is the argument this paper later develops; the interview's "post-IT space" is its earliest public statement.
 - **See also** [Active Transaction Graphs](../../papers/2026-active-transaction-graphs/) — "chemistry and physics are rapidly becoming branches of finite automata theory" anticipates the paper's automata-theoretic framing.
+- **See also** [On the Necessity of Noise Suppression for Minimal Good Regulators](../../papers/2026-noise-suppression-minimal-good-regulators/) — "all roads lead to discrete mathematics," stated here as a disposition, is the direction of travel that ends in this paper's factorization theorems.

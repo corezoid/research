@@ -47,6 +47,7 @@ Programming languages historically combined two functions: making human intent i
 - Version of record: https://doi.org/10.5281/zenodo.21458098
 - Concept DOI (all versions): https://doi.org/10.5281/zenodo.21458097
 - ResearchGate: https://www.researchgate.net/publication/410613460
+- Plain-language announcement: [Beyond Programming Languages](https://corezoid.com/blog/beyond-programming-languages/) (Corezoid blog, July 27, 2026)
 
 ## Changelog
 

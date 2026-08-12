@@ -48,6 +48,7 @@ This paper's reference list is entirely to external literature; it does not cite
 
 - Version of record: https://doi.org/10.13140/RG.2.2.33143.07843
 - ResearchGate: https://www.researchgate.net/publication/400615896
+- Plain-language announcement: [The Science of Effective Control](https://corezoid.com/blog/the-science-of-effective-control-new-research-publication/) (Corezoid blog, March 2, 2026)
 
 ## Changelog
 
