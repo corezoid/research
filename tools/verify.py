@@ -108,11 +108,14 @@ if not OFFLINE:
         lmd5 = hashlib.md5(open(local, "rb").read()).hexdigest()
         try:
             rec = fetch_json(f"https://zenodo.org/api/records/{p['zenodo_id']}")
-            zmd5 = rec["files"][0]["checksum"].replace("md5:", "")
+            # a record may carry several files (e.g. a revised text added alongside the
+            # original), so the local PDF matches if it is any file in the deposit
+            zsums = {f["checksum"].replace("md5:", "") for f in rec["files"]}
         except Exception as e:  # network flakiness must not hard-fail CI
             warn(f"checksum: {p['path']} — Zenodo API unreachable ({e})")
             continue
-        if lmd5 == zmd5:
+        zmd5 = ", ".join(sorted(zsums))
+        if lmd5 in zsums:
             ok(f"checksum: {p['path']} identical to Zenodo deposit")
         elif p.get("known_mismatch"):
             warn(f"checksum: {p['path']} differs from Zenodo (known: {p['known_mismatch'][:60]}…)")

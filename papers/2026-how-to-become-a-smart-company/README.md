@@ -25,10 +25,10 @@ This is an essay rather than a formal paper: it states the architectural argumen
 
 | File | Description |
 |------|-------------|
-| [paper.pdf](paper.pdf) | Canonical PDF (identical to the Zenodo deposit of August 4, 2026) |
-| [paper.md](paper.md) | Readable markdown version — the author's v1.1 text, which adds the abstract and keywords and revises the subtitle |
+| [paper.pdf](paper.pdf) | Canonical PDF — the v1.1 text, identical to the file of that name in the Zenodo deposit |
+| [paper.md](paper.md) | Readable markdown version |
 
-The markdown reading version is ahead of the deposit; see [CHANGELOG.md](CHANGELOG.md).
+The deposit also retains the original August 4, 2026 PDF alongside v1.1; see [CHANGELOG.md](CHANGELOG.md).
 
 ## How to cite
 

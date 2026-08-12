@@ -6,11 +6,6 @@ AI makes most companies dumber. Architecture makes them smarter.
 [ORCID 0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881) · [corezoid.com](https://corezoid.com) · [simulator.company](https://simulator.company)
 DOI: [10.5281/zenodo.21792643](https://doi.org/10.5281/zenodo.21792643)
 
-> **Note on versions.** This reading version is the author's v1.1 text, which adds the abstract
-> and keywords below and revises the subtitle. The canonical [paper.pdf](paper.pdf) is the
-> Zenodo deposit of record (August 4, 2026) and does not yet contain them. See
-> [CHANGELOG.md](CHANGELOG.md).
-
 #### **Abstract**
 
 Artificial intelligence deployed within a fragmented enterprise architecture amplifies fragmentation accumulated across software, integrations, processes, vendor dependencies, and organisational routines. This article defines the resulting burden as the fragmentation tax and connects it to the grounding problem: different functions and systems operate through incompatible projections of the same company.
