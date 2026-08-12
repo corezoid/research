@@ -1,34 +1,238 @@
 {
   "_comment": "Machine-readable registry of the corpus. tools/verify.py checks the repository against this file. One entry per PDF artifact. 'node' is the id used in the root README mermaid citation graph (null = not drawn, e.g. the series container).",
   "papers": [
-    {"path": "papers/2026-noise-suppression-minimal-good-regulators", "pdf": "paper.pdf", "citekey": "vityaz2026noise", "node": "NS", "doi": "10.13140/RG.2.2.33143.07843", "zenodo_id": null, "rg_id": 400615896, "has_md": false},
-    {"path": "papers/2026-regulatory-quality-asymptotic-models", "pdf": "paper.pdf", "citekey": "vityaz2026regulatory", "node": "RQ", "doi": "10.13140/RG.2.2.31082.79042", "zenodo_id": null, "rg_id": 402229391, "has_md": false},
-    {"path": "papers/2026-active-transaction-graphs", "pdf": "paper.pdf", "citekey": "vityaz2026atg", "node": "ATG", "doi": "10.5281/zenodo.20747873", "zenodo_id": 20747873, "rg_id": null, "has_md": true},
-    {"path": "papers/2026-phase-model-of-enterprise-evolution", "pdf": "paper.pdf", "citekey": "vityaz2026phasemodel", "node": "PM", "doi": "10.13140/RG.2.2.24883.39207", "zenodo_id": null, "rg_id": 403387171, "has_md": false},
-    {"path": "papers/2026-company-brain", "pdf": "paper.pdf", "citekey": "vityaz2026companybrain", "node": "CB", "doi": "10.13140/RG.2.2.28274.88007", "zenodo_id": null, "rg_id": 403449291, "has_md": false},
-    {"path": "papers/2026-what-is-work", "pdf": "paper.pdf", "citekey": "vityaz2026whatiswork", "node": "WIW", "doi": null, "zenodo_id": null, "rg_id": 403936327, "has_md": false},
-    {"path": "papers/2026-metaunderstanding", "pdf": "paper.pdf", "citekey": "vityaz2026metaunderstanding", "node": "MU", "doi": null, "zenodo_id": null, "rg_id": 403758098, "has_md": false},
-    {"path": "papers/2026-computable-boundary-of-the-firm", "pdf": "paper.pdf", "citekey": "vityaz2026boundary", "node": "CBF", "doi": "10.5281/zenodo.20745927", "zenodo_id": 20745927, "rg_id": null, "has_md": true},
-    {"path": "papers/2026-management-debt-part-i", "pdf": "paper.pdf", "citekey": "vityaz2026managementdebt1", "node": "MD1", "doi": "10.5281/zenodo.21069692", "zenodo_id": 21069692, "rg_id": null, "has_md": true},
-    {"path": "papers/2026-ontology-of-transition", "pdf": "volume.pdf", "citekey": "vityaz2026ontology", "node": null, "doi": "10.5281/zenodo.21380580", "zenodo_id": 21380580, "rg_id": null, "has_md": false, "series": true},
-    {"path": "papers/2026-ontology-of-transition/part-i", "pdf": "paper.pdf", "citekey": "vityaz2026ontology1", "node": "OT1", "doi": "10.5281/zenodo.21471785", "zenodo_id": 21471785, "rg_id": null, "has_md": true},
-    {"path": "papers/2026-ontology-of-transition/part-ii", "pdf": "paper.pdf", "citekey": "vityaz2026ontology2", "node": "OT2", "doi": "10.5281/zenodo.21472271", "zenodo_id": 21472271, "rg_id": null, "has_md": true},
-    {"path": "papers/2026-ontology-of-transition/part-iii", "pdf": "paper.pdf", "citekey": "vityaz2026ontology3", "node": "OT3", "doi": "10.5281/zenodo.21473025", "zenodo_id": 21473025, "rg_id": null, "has_md": true},
-    {"path": "papers/2026-beyond-programming-languages", "pdf": "paper.pdf", "citekey": "vityaz2026beyondpl", "node": "BPL", "doi": "10.5281/zenodo.21458098", "zenodo_id": 21458098, "rg_id": 410613460, "has_md": false,
-     "known_mismatch": "Repo holds the author's 13-page ResearchGate text; Zenodo v1 is the 9-page deposit. Pending author decision on a v2 deposit (recorded 2026-07-28). Remove this field once reconciled."},
-    {"path": "papers/2026-quantum-learning", "pdf": "paper.pdf", "citekey": "vityaz2026quantumlearning", "node": "QL", "doi": "10.5281/zenodo.21704460", "zenodo_id": 21704460, "rg_id": 411010035, "has_md": true},
-    {"path": "papers/2026-compact-company", "pdf": "paper.pdf", "citekey": "vityaz2026compactcompany", "node": "CC", "doi": "10.5281/zenodo.21774758", "zenodo_id": 21774758, "rg_id": 411189149, "has_md": true}
+    {
+      "path": "papers/2026-noise-suppression-minimal-good-regulators",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026noise",
+      "node": "NS",
+      "doi": "10.13140/RG.2.2.33143.07843",
+      "zenodo_id": null,
+      "rg_id": 400615896,
+      "has_md": false
+    },
+    {
+      "path": "papers/2026-regulatory-quality-asymptotic-models",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026regulatory",
+      "node": "RQ",
+      "doi": "10.13140/RG.2.2.31082.79042",
+      "zenodo_id": null,
+      "rg_id": 402229391,
+      "has_md": false
+    },
+    {
+      "path": "papers/2026-active-transaction-graphs",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026atg",
+      "node": "ATG",
+      "doi": "10.5281/zenodo.20747873",
+      "zenodo_id": 20747873,
+      "rg_id": null,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-phase-model-of-enterprise-evolution",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026phasemodel",
+      "node": "PM",
+      "doi": "10.13140/RG.2.2.24883.39207",
+      "zenodo_id": null,
+      "rg_id": 403387171,
+      "has_md": false
+    },
+    {
+      "path": "papers/2026-company-brain",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026companybrain",
+      "node": "CB",
+      "doi": "10.13140/RG.2.2.28274.88007",
+      "zenodo_id": null,
+      "rg_id": 403449291,
+      "has_md": false
+    },
+    {
+      "path": "papers/2026-what-is-work",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026whatiswork",
+      "node": "WIW",
+      "doi": null,
+      "zenodo_id": null,
+      "rg_id": 403936327,
+      "has_md": false
+    },
+    {
+      "path": "papers/2026-metaunderstanding",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026metaunderstanding",
+      "node": "MU",
+      "doi": null,
+      "zenodo_id": null,
+      "rg_id": 403758098,
+      "has_md": false
+    },
+    {
+      "path": "papers/2026-computable-boundary-of-the-firm",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026boundary",
+      "node": "CBF",
+      "doi": "10.5281/zenodo.20745927",
+      "zenodo_id": 20745927,
+      "rg_id": null,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-management-debt-part-i",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026managementdebt1",
+      "node": "MD1",
+      "doi": "10.5281/zenodo.21069692",
+      "zenodo_id": 21069692,
+      "rg_id": null,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-ontology-of-transition",
+      "pdf": "volume.pdf",
+      "citekey": "vityaz2026ontology",
+      "node": null,
+      "doi": "10.5281/zenodo.21380580",
+      "zenodo_id": 21380580,
+      "rg_id": null,
+      "has_md": false,
+      "series": true
+    },
+    {
+      "path": "papers/2026-ontology-of-transition/part-i",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026ontology1",
+      "node": "OT1",
+      "doi": "10.5281/zenodo.21471785",
+      "zenodo_id": 21471785,
+      "rg_id": null,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-ontology-of-transition/part-ii",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026ontology2",
+      "node": "OT2",
+      "doi": "10.5281/zenodo.21472271",
+      "zenodo_id": 21472271,
+      "rg_id": null,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-ontology-of-transition/part-iii",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026ontology3",
+      "node": "OT3",
+      "doi": "10.5281/zenodo.21473025",
+      "zenodo_id": 21473025,
+      "rg_id": null,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-beyond-programming-languages",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026beyondpl",
+      "node": "BPL",
+      "doi": "10.5281/zenodo.21458098",
+      "zenodo_id": 21458098,
+      "rg_id": 410613460,
+      "has_md": false,
+      "known_mismatch": "Repo holds the author's 13-page ResearchGate text; Zenodo v1 is the 9-page deposit. Pending author decision on a v2 deposit (recorded 2026-07-28). Remove this field once reconciled."
+    },
+    {
+      "path": "papers/2026-quantum-learning",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026quantumlearning",
+      "node": "QL",
+      "doi": "10.5281/zenodo.21704460",
+      "zenodo_id": 21704460,
+      "rg_id": 411010035,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-compact-company",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026compactcompany",
+      "node": "CC",
+      "doi": "10.5281/zenodo.21774758",
+      "zenodo_id": 21774758,
+      "rg_id": 411189149,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-how-to-become-a-smart-company",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026smartcompany",
+      "node": "SC",
+      "doi": "10.5281/zenodo.21792643",
+      "zenodo_id": 21792643,
+      "has_md": true
+    }
   ],
   "patents": [
-    {"path": "patents/US11228570-safe-transfer-exchange-protocol", "pdf": "patent.pdf", "citekey": "vityazUS11228570", "number": "US11228570B2"},
-    {"path": "patents/US11093935-resource-saving-exchange-protocol", "pdf": "patent.pdf", "citekey": "vityazUS11093935", "number": "US11093935B2"},
-    {"path": "patents/US10776772-providing-or-sharing-access", "pdf": "patent.pdf", "citekey": "vityazUS10776772", "number": "US10776772B2"},
-    {"path": "patents/US11237835-api-controlled-universal-computing-elements", "pdf": "patent.pdf", "citekey": "vityazUS11237835", "number": "US11237835B2"},
-    {"path": "patents/US11941462-api-controlled-universal-computing-elements", "pdf": "patent.pdf", "citekey": "vityazUS11941462", "number": "US11941462B2"},
-    {"path": "patents/US12657076-api-controlled-universal-computing-elements", "pdf": "patent.pdf", "citekey": "vityazUS12657076", "number": "US12657076B2"},
-    {"path": "patents/US10565302-dialog-with-fillable-forms", "pdf": "patent.pdf", "citekey": "vityazUS10565302", "number": "US10565302B2"},
-    {"path": "patents/US20190007489-condition-triggered-process", "pdf": "patent.pdf", "citekey": "vityazUS20190007489", "number": "US20190007489A1"},
-    {"path": "patents/US20240378338-actor-graph-engine", "pdf": "patent.pdf", "citekey": "vityazUS20240378338", "number": "US20240378338A1"},
-    {"path": "patents/US20220100554-modifying-data-processing-method", "pdf": "patent.pdf", "citekey": "vityazUS20220100554", "number": "US20220100554A1"}
+    {
+      "path": "patents/US11228570-safe-transfer-exchange-protocol",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS11228570",
+      "number": "US11228570B2"
+    },
+    {
+      "path": "patents/US11093935-resource-saving-exchange-protocol",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS11093935",
+      "number": "US11093935B2"
+    },
+    {
+      "path": "patents/US10776772-providing-or-sharing-access",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS10776772",
+      "number": "US10776772B2"
+    },
+    {
+      "path": "patents/US11237835-api-controlled-universal-computing-elements",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS11237835",
+      "number": "US11237835B2"
+    },
+    {
+      "path": "patents/US11941462-api-controlled-universal-computing-elements",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS11941462",
+      "number": "US11941462B2"
+    },
+    {
+      "path": "patents/US12657076-api-controlled-universal-computing-elements",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS12657076",
+      "number": "US12657076B2"
+    },
+    {
+      "path": "patents/US10565302-dialog-with-fillable-forms",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS10565302",
+      "number": "US10565302B2"
+    },
+    {
+      "path": "patents/US20190007489-condition-triggered-process",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS20190007489",
+      "number": "US20190007489A1"
+    },
+    {
+      "path": "patents/US20240378338-actor-graph-engine",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS20240378338",
+      "number": "US20240378338A1"
+    },
+    {
+      "path": "patents/US20220100554-modifying-data-processing-method",
+      "pdf": "patent.pdf",
+      "citekey": "vityazUS20220100554",
+      "number": "US20220100554A1"
+    }
   ]
 }

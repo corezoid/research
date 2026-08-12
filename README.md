@@ -27,6 +27,7 @@ Every paper is published as an immutable, citable record on [Zenodo](https://zen
 | 11 | [Beyond Programming Languages](papers/2026-beyond-programming-languages/) | Jul 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21458098-blue.svg)](https://doi.org/10.5281/zenodo.21458098) | [PDF](papers/2026-beyond-programming-languages/paper.pdf) |
 | 12 | [Quantum Learning: From Educational Programs to Managing Changes in Human Capability](papers/2026-quantum-learning/) | Jul 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21704460-blue.svg)](https://doi.org/10.5281/zenodo.21704460) | [PDF](papers/2026-quantum-learning/paper.pdf) · [MD](papers/2026-quantum-learning/paper.md) |
 | 13 | [The Compact Company: An Actor-Graph Theory of the Firm in the LLM Era](papers/2026-compact-company/) | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21774758-blue.svg)](https://doi.org/10.5281/zenodo.21774758) | [PDF](papers/2026-compact-company/paper.pdf) · [MD](papers/2026-compact-company/paper.md) |
+| 14 | [How to Become a Smart Company](papers/2026-how-to-become-a-smart-company/) *(essay)* | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21792643-blue.svg)](https://doi.org/10.5281/zenodo.21792643) | [PDF](papers/2026-how-to-become-a-smart-company/paper.pdf) · [MD](papers/2026-how-to-become-a-smart-company/paper.md) |
 
 ### Ontology of Transition — parts
 
@@ -87,6 +88,7 @@ graph BT
     BPL["Beyond Programming<br/>Languages (Jul 2026)"]
     QL["Quantum Learning<br/>(Jul 2026)"]
     CC["Compact Company<br/>(Aug 2026)"]
+    SC["How to Become a<br/>Smart Company (Aug 2026)"]
 
     RQ -->|cites| NS
     RQ -->|cites| ATG
@@ -120,6 +122,13 @@ graph BT
     CC -->|cites| WIW
     CC -->|cites| MD1
     QL -->|cites| ATG
+    SC -->|cites| NS
+    SC -->|cites| ATG
+    SC -->|cites| PM
+    SC -->|cites| CB
+    SC -->|cites| CBF
+    SC -->|cites| MD1
+    CC -->|cites| SC
     QL -->|cites| MD1
 ```
 
