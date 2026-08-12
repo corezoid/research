@@ -112,6 +112,21 @@ Rules:
   grants, update the folder (rename to the grant number, replace the PDF) and edit the
   existing release rather than minting a second one.
 
+### Non-US registrations
+
+Ukrainian inventions and utility models are indexed as a single table in `patents/ua/README.md`,
+not as a folder per family:
+
+- **No `patent.pdf`.** The Ukrainian register (sis.ukrpatent.org) serves documents through a
+  JavaScript application with no direct PDF link, so the register entry is linked as the
+  authoritative record instead. A folder holding no `patent.pdf` is outside the manifest checks
+  by design — do not add such folders to `tools/manifest.json`, and do not create per-patent
+  folders until official publications can actually be attached.
+- Titles are recorded in Ukrainian as registered, with an English gloss, and statuses are quoted
+  from the register rather than restated.
+- Scope decision: Russian, Mexican and Japanese members of the same families, industrial designs,
+  and trademarks are deliberately excluded.
+
 ## Interviews
 
 Public interviews and profiles live under `interviews/`, indexed by the table in

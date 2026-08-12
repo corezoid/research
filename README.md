@@ -50,6 +50,8 @@ Work in progress is reviewed privately and appears here on publication:
 
 USPTO patents by the same author underpinning the Corezoid/Middleware platform; full texts are public records.
 
+Earlier Ukrainian registrations — the PrivatBank-era inventions and utility models behind SMS one-time passwords, QR payments and card personalization — are indexed separately in [`patents/ua/`](patents/ua/).
+
 | Patent | Title | Filed | Granted | Status | PDF |
 |---|---|---|---|---|---|
 | [US12657076B2](patents/US12657076-api-controlled-universal-computing-elements/) | System and method for processing data of any external services through API controlled universal computing elements *(continuation of US11941462)* | 2024-03-25 | 2026-06-16 | Active | [PDF](patents/US12657076-api-controlled-universal-computing-elements/patent.pdf) |
