@@ -125,6 +125,9 @@ Rules:
 - **Never re-host the original article.** Link to the outlet's URL as the version of
   record. Only an English translation prepared for this repository is committed here, as
   `english.md` (or `english.pdf`).
+- **Print-only originals cite the issue, not a URL.** For a magazine feature with no public web
+  version, give outlet, issue number, date and page range in place of a link (and never link a
+  scan of the printed pages — that would re-host the article).
 - **Third-party media stays out.** Photographs, infographics and other artwork belonging
   to the outlet or its illustrators are not reproduced, even when present in the
   translation source — this repository's CC BY 4.0 text license cannot be extended to
