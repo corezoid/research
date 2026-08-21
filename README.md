@@ -71,6 +71,12 @@ Public interviews and profiles documenting the development of ideas later formal
 
 [Browse the curated archive](interviews/)
 
+## Press releases
+
+Historical press releases and contemporaneous news items — dated primary records of the product launches later narrated in the interviews. Context rather than contributions, outside the citation graph.
+
+[Browse the archive](press/)
+
 ## How the papers relate
 
 ```mermaid

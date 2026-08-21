@@ -169,6 +169,16 @@ Rules:
   transcript checked against the recording by a person may be added, and then it is labelled
   as such.
 
+## Press releases
+
+Historical press releases and news items live under `press/`, one folder per item named
+`<year>-<slug>/` (years vary — the section spans decades), indexed by the table in
+`press/README.md`. They follow the same rules as interviews: outside the citation graph,
+"See also" links only, never in `tools/manifest.json` or `bibliography.bib`; originals linked,
+never re-hosted; only an `english.md` translation with a provenance header is committed.
+Historical URLs quoted inside a release (e.g. a 2001 Privat24 address) are preserved as
+published and are not expected to resolve.
+
 ## Announcements are not works
 
 Corezoid's blog announces some papers under its own editorial headline — *The Science of
