@@ -178,6 +178,9 @@ Historical press releases and news items live under `press/`, one folder per ite
 never re-hosted; only an `english.md` translation with a provenance header is committed.
 Historical URLs quoted inside a release (e.g. a 2001 Privat24 address) are preserved as
 published and are not expected to resolve.
+A folder may hold a condensed synthesis of two or more closely linked publications; then every
+original is linked in the header, the condensation is disclosed, and any source-verification
+correction (e.g. a mis-stated patent number) is recorded in the header note with the evidence.
 
 ## Announcements are not works
 

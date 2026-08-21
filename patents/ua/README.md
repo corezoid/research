@@ -28,6 +28,9 @@ Titles are given in Ukrainian as registered, with an English gloss.
 Patent 50003 — the first Ukrainian banking technology patented in both Ukraine and Russia — was
 named "Invention of the Year 2003" in the nationwide competition of the State Department of
 Intellectual Property ([press release](../../press/2004-aub-invention-of-the-year/english.md)).
+Patent 64847 won the following year's overall and sectoral "Invention of the Year 2004" titles
+for the electronic logistics of mobile starter packs
+([press release](../../press/2005-private-mobile-electronic-logistics/english.md)).
 
 ## Utility models
 
