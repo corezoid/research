@@ -171,6 +171,15 @@
       "doi": "10.5281/zenodo.21792643",
       "zenodo_id": 21792643,
       "has_md": true
+    },
+    {
+      "path": "papers/2026-actor-graphs",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026actorgraphs",
+      "node": "AG",
+      "doi": "10.5281/zenodo.21995981",
+      "zenodo_id": 21995981,
+      "has_md": false
     }
   ],
   "patents": [

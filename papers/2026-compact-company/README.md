@@ -52,6 +52,7 @@ This paper is the synthesizing step of the author's research program; §3.11 set
 - Also cites [Regulatory Quality of Asymptotic Models](../2026-regulatory-quality-asymptotic-models/) (reference [54], §3.11, §17.1 — the critical scale below which a model fails to distinguish the system), [A Phase Model of Enterprise Evolution](../2026-phase-model-of-enterprise-evolution/) (reference [57], §3.11, §12.2), [Metaunderstanding](../2026-metaunderstanding/) (reference [58], §3.11 — pragmatic policy compression), and [What Is Work](../2026-what-is-work/) (reference [59], §3.11, §8.1 — redistribution of information-processing work after a rapid first LLM output). §3.11 classes these as adjacent metrics, mechanisms, and architectural constraints rather than proofs of the central propositions.
 - Also cites [How to Become a Smart Company](../2026-how-to-become-a-smart-company/) (reference [61], §3.11 — the fragmentation tax, and the distinction between local functional amplification by AI tools and the architectural integrity of the company).
 - Also cites works not part of this repository: *The Law of Functional Migration* [50], *On the Nature of the Regulator* [55], and *Convergence Theory and Practice for Iterative Generation with Drifting Goals* [60].
+- Cited by [Actor Graphs](../2026-actor-graphs/) — whose typed temporal Actor Graph this paper applies to organisational closure and firm boundaries
 
 ## Links
 

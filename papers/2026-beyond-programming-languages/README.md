@@ -41,6 +41,7 @@ Programming languages historically combined two functions: making human intent i
 
 - Builds on [Active Transaction Graphs](../2026-active-transaction-graphs/) — supplies the formal Actor/transaction-graph framework that this essay proposes as the executable model replacing program text as the source of operational truth (reference [8]).
 - **Where Does an Actor End? Half a Century of the Actor Model — in preparation.** Cited as an unpublished position paper (version 3.9.4, July 2026); a preprint is in preparation and it is not yet part of this repository (reference [7]).
+- Cited by [Actor Graphs](../2026-actor-graphs/) — verified Actor Graphs as the source of operational truth, code as regenerable implementation
 
 ## Links
 

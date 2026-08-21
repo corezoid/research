@@ -42,6 +42,7 @@ The PDF prints the author's name in the transliterated variant "Oleksandr Vityaz
 - Builds on [Management Debt—Part I](../2026-management-debt-part-i/) — management debt as the economic shadow of unsuppressed organisational noise, including double-entry attribution to actor accounts
 - Builds on [On the Necessity of Noise Suppression for Minimal Good Regulators](../2026-noise-suppression-minimal-good-regulators/) — the factorisation *π\* = g ∘ σ*<sub>prag</sub> that defines the Digital Core transition
 - Cited by [The Compact Company](../2026-compact-company/) — which extends this digital-twin architecture so that the twin embodies an organizationally closed actor graph with a transactional boundary and verifiable role transfer
+- Cited by [Actor Graphs](../2026-actor-graphs/) — the computable geometric model and digital twin applied there
 
 ## Links
 

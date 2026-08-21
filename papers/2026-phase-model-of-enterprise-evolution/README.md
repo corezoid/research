@@ -41,6 +41,7 @@ The PDF prints the author's name in the transliterated variant "Oleksandr Vityaz
 - Builds on [Management Debt—Part I](../2026-management-debt-part-i/) — the accounting mechanics for management debt as the shadow of unsuppressed noise
 - Cited by [Company Brain](../2026-company-brain/) — adopts this four-phase path as its evolutionary backbone
 - Cited by [The Compact Company](../2026-compact-company/) — which builds on the phase transition toward a digital twin and specifies the theoretical object that twin should embody
+- Cited by [Actor Graphs](../2026-actor-graphs/) — which the phase model places in the transition from digital core to digital twin
 
 ## Links
 

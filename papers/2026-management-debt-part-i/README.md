@@ -41,6 +41,7 @@ This article develops a formal framework for conceptualising and accounting for 
 - Cited by [The Compact Company](../2026-compact-company/) — which gives the concept an architectural continuation: incomplete policy produces indeterminate transactions, and hidden instructions create *rule debt*.
 - Cited by [Quantum Learning](../2026-quantum-learning/) — which extends the actor-accounting logic developed here into a traceable chain of accountability for the qualification claim.
 - **Part II — in preparation.** It covers the account structure and posting mechanics of double-entry actor accounts, the procedure for determining shares in distributed attribution (including a case with multiple Decision Owners), and the platform implementation of the accounting model. Not yet part of this repository.
+- Cited by [Actor Graphs](../2026-actor-graphs/) — attributable actor accounts and ledger consequences, given transaction-sourced semantics there
 
 ## Links
 

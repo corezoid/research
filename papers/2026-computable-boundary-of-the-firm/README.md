@@ -39,6 +39,7 @@ In the practice of digital twins of organizations (DTOs), the boundary of the en
 - Cited by [Ontology of Transition — Part I](../2026-ontology-of-transition/part-i/) and [Part III](../2026-ontology-of-transition/part-iii/).
 - Cited by [The Compact Company](../2026-compact-company/) — which refines the boundary from topological membership and permeability into a transactional operator attributing each action across authority, accountability, data regime, economic outcome, and control.
 - Also cites *The Actor Codex, Chapter X. The Boundaries of the Firm* (working draft, in preparation) — not part of this repository.
+- Cited by [Actor Graphs](../2026-actor-graphs/) — actor membership, boundary observability and the Executable Boundary Actor
 
 ## Links
 
