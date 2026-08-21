@@ -16,7 +16,7 @@ This model gives the company two central properties: plasticity, which makes org
 
 API visibility is proposed as a practical diagnostic of whether the company possesses a coherent model of itself. The article concludes that AI becomes useful when embedded in an executable architecture that provides holistic operational context.
 
-**Keywords:** Smart Company; executable digital twin; digital twin of the organisation; enterprise architecture; organisational cybernetics; Good Regulator Theorem; fragmentation tax; grounding; Company Brain; actor graphs; artificial intelligence; API architecture; metaprogramming
+**Keywords:** Smart Company; executable digital twin; digital twin of the organisation; enterprise architecture; organisational cybernetics; Good Regulator Theorem; fragmentation tax; grounding; Company Brain; Actor Graphs; artificial intelligence; API architecture; metaprogramming
 
 ## **1 Introduction**
 
@@ -81,7 +81,7 @@ To alter a process, reconfigure a connection, or switch a decision path is no lo
 
 For the first time, the company’s memory and its ‘thinking’—the processes that transform data—are closed into a single loop.
 
-The twin provides a unified memory: a graph of actors, connections, states, and the history of decisions. It provides an environment for thinking: computation, routing, simulation, and the actions of both humans and AI. [4]
+The twin provides a unified memory: an Actor Graph containing actors, connections, states, and the history of decisions. It provides an environment for thinking: computation, routing, simulation, and the actions of both humans and AI. [4]
 
 When this model is connected to the flow of real events, the company gains not merely reporting about itself, but an operational digital organ of thought. This is precisely where AI belongs. Not on top of legacy. Not as yet another interface to chaos.
 
@@ -123,13 +123,13 @@ At Corezoid, we have created a technology for growing digital twins of companies
 
 simulator.company.
 
-Alexander Vityaz is the founder of Corezoid Inc. His work sits at the intersection of cybernetics, actor graphs, distributed computing architectures, and organisation theory.
+Alexander Vityaz is the founder of Corezoid Inc. His work sits at the intersection of cybernetics, Actor Graphs, distributed computing architectures, and organisation theory.
 
 ## **References**
 
 - [1] Vityaz, A. (2026). On the Necessity of Noise Suppression for Minimal Good Regulators: Factorization Theorems and a Closure Conjecture. Preprint. DOI: `10.13140/RG.2.2.33143.07843` .
 
-- [2] Vityaz, A. (2026). Active Transaction Graphs: A Formal Framework for Transactional Interactive Systems. Article. DOI: `10.5281/zenodo.20747873` .
+- [2] Vityaz, A. (2026). Actor Graphs: Triple-Identity Accountable Mediation and Coinductive Disclosure. Zenodo. DOI: `10.5281/zenodo.21995981` .
 
 - [3] Vityaz, A. (2026). A Phase Model of Enterprise Evolution: From Fragmentation to the Autonomous Enterprise. Preprint. DOI: `10.13140/RG.2.2.24883.39207` .
 

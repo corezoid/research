@@ -1,17 +1,19 @@
 # Changelog
 
+## Revision of 2026-08-19
+
+The author replaced the record's files with a single consolidated PDF
+(`Vityaz_How_to_Become_a_Smart_Company.pdf`); the DOI is unchanged. Relative to the v1.1 text:
+"actor graphs" is now branded "Actor Graphs" throughout, and reference [2] cites
+*Actor Graphs: Triple-Identity Accountable Mediation and Coinductive Disclosure*
+([10.5281/zenodo.21995981](https://doi.org/10.5281/zenodo.21995981)) in place of
+*Active Transaction Graphs*. `paper.pdf` and `paper.md` follow this revision.
+
 ## v1.1 — 2026-08-12
 
-The author added the v1.1 text to the existing Zenodo record, which now holds two PDFs: the
-original deposit and `Vityaz_How_to_Become_a_Smart_Company_v1.1_2026.pdf`. `paper.pdf` here is
-the v1.1 file. The DOI is unchanged — Zenodo revised the record in place rather than minting a
-new version, so [10.5281/zenodo.21792643](https://doi.org/10.5281/zenodo.21792643) resolves to
-both files.
-
-v1.1 differs from the original deposit in two ways:
-
-- an abstract and a keyword list were added;
-- the subtitle was revised from *"AI Makes Most Companies More Stupid. Architecture Makes Them Smarter."* to *"AI makes most companies dumber. Architecture makes them smarter."*
+Added to the same record alongside the original file: an abstract and a keyword list; the
+subtitle revised from *"AI Makes Most Companies More Stupid. Architecture Makes Them Smarter."*
+to *"AI makes most companies dumber. Architecture makes them smarter."*
 
 ## v1 — 2026-08-04
 
