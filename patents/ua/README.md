@@ -25,6 +25,10 @@ Titles are given in Ukrainian as registered, with an English gloss.
 | 81027 | Спосіб дистанційної аутентифікації користувача та система для його здійснення | Method and system of remote user authentication — control of users by their electronic profile | 2007-11-26 | In force | [entry](https://sis.ukrpatent.org/uk/search/detail/394693/) |
 | 88488 | Спосіб здійснення кредитної транзакції для покупки товарів або послуг | Method of performing a credit transaction to purchase goods or services — SMS-POS credit | 2009-10-26 | In force | [entry](https://sis.ukrpatent.org/uk/search/detail/430048/) |
 
+Patent 50003 — the first Ukrainian banking technology patented in both Ukraine and Russia — was
+named "Invention of the Year 2003" in the nationwide competition of the State Department of
+Intellectual Property ([press release](../../press/2004-aub-invention-of-the-year/english.md)).
+
 ## Utility models
 
 | № | Title | English gloss | Registered | Status | Register |
