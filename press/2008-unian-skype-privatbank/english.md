@@ -1,4 +1,4 @@
-# Skype Has Arrived in Ukraine — Start Using It!
+# Skype Officially entered Ukraine with PrivatBank: Alexander Vityaz outlined further integration Projects
 
 **Source:** UNIAN · **Published:** December 9, 2008, 11:10 · **Author:** Dmytro Bobesiuk · **Format:** report
 **Original title:** «Skype прийшов в Україну — користуйтеся!»
@@ -14,8 +14,6 @@
 > Figures, product descriptions, and plans reflect the publication's context of December 2008.
 
 ---
-
-## Skype Has Arrived in Ukraine — Start Using It!
 
 Skype, the advanced communications platform, was already widely used by Ukraine’s more IT-savvy public. Although the company had existed for five years, it was only now making its official entry into Ukraine, with PrivatBank as its partner.
 
@@ -42,6 +40,7 @@ Surprisingly, PrivatBank did not consider the financial component of the project
 Reliable connectivity becomes even more important when time and distance are no longer barriers to communication. At the time, users needed only to download Skype from PrivatBank’s website and follow the simple prompts. They could then find friends and partners around the world and hold video conferences, negotiations, and meetings with the people they needed.
 
 **P.S.** When I arrived home, I decided to test in practice what had been discussed at the presentation. Using Skype and PEOPLEnet, I was indeed able to speak by video with relatives living in Western Europe. It took me about 40 minutes to install the Skype software and the necessary equipment and establish the connection. It should be noted that most of the steps were completed by trial and error, while my two-year-old son took a direct and active part in the entire setup process.
+
 ---
 
 ## Related material in this repository

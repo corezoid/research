@@ -1,4 +1,4 @@
-# PrivatBank and Visa International Launched the "Convenient Transfers" Service
+# PrivatBank and Visa launched “Convenient Transfers”: Alexander Vityaz outlined its Privat24 Rollout
 
 **Source:** Finance.ua · **Published:** March 19, 2003, 10:47 · **Section:** Fintech and Cards
 **Original title:** «Международный проект ПриватБанка и Visa International – новая услуга "Удобные переводы"»
@@ -12,8 +12,6 @@
 > figures reflect the source as published on March 19, 2003.
 
 ---
-
-## PrivatBank and Visa International Launched the "Convenient Transfers" Service
 
 PrivatBank, the leader of Ukraine’s payment card market, and Visa International, a leading international payment system, announced today the launch in Ukraine of an international pilot project offering a new service called “Convenient Transfers.” The project enables all of the bank’s customers and other residents of Ukraine to transfer money to Visa cards worldwide.
 
@@ -34,6 +32,7 @@ Visa payment products are used and preferred worldwide. Visa is the world’s la
 ## About PrivatBank
 
 PrivatBank is one of Ukraine’s largest banks, with a nationwide service network of 1,415 branches and offices. The bank holds leading positions in the country’s principal banking segments and is the acknowledged national leader in the payment card market. By the date of publication, PrivatBank had issued more than 2.7 million payment cards—42% of all cards issued by Ukrainian banks—including 1.8 million Visa cards. Its card service network comprised 765 ATMs, more than 15,000 merchant and service locations, and 1,873 cash withdrawal points. In 2002, a PrivatBank representative was elected to the Visa CEMEA Regional Board of Directors, and the bank was admitted to Visa CEMEA’s elite “Millionaires Club.” Introducing new banking technologies was a strategic development priority for PrivatBank. More than 25,000 customers were using the Privat24 electronic banking system, while the GSM banking system had over 30,000 users.
+
 ---
 
 ## Related material in this repository

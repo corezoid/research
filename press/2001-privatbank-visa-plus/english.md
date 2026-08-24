@@ -1,4 +1,4 @@
-# PrivatBank Begins Issuing VISA Plus Cards
+# Alexander Vityaz introduced PrivatBank’s VISA Plus Cards
 
 **Source:** Finance.ua · **Published:** December 20, 2001, 17:29 · **Section:** Fintech and Cards
 **Original title:** «ПриватБанк приступил к выпуску пластиковых карт VISA Plus»
@@ -13,17 +13,15 @@
 
 ---
 
-## PrivatBank Begins Issuing VISA Plus Cards
+In December, PrivatBank introduced a new card product to its customers: the VISA Plus payment card. According to Alexander Vityaz, Head of PrivatBank’s Payment Cards Department, VISA Plus is a new type of card developed jointly by the bank and the VISA International payment system for a broad range of customers. In terms of both its status and functionality, VISA Plus is the most accessible payment card and is issued free of charge. At the same time, the instant card issuance technology implemented by PrivatBank gives customers the unique opportunity to receive a VISA Plus card and begin using it immediately after opening an account with the bank.
 
-In December, PrivatBank introduced a new card product to its customers: the VISA Plus payment card. According to Alexander Vityaz, Head of PrivatBank's Payment Cards Department, VISA Plus is a new type of card developed jointly by the bank and the VISA International payment system for a broad range of customers. In terms of both its status and functionality, VISA Plus is the most accessible payment card and is issued free of charge. At the same time, the instant card issuance technology implemented by PrivatBank gives customers the unique opportunity to receive a VISA Plus card and begin using it immediately after opening an account with the bank.
+One of the card’s key features is that VISA Plus cardholders can use it throughout the worldwide ATM network of the international VISA payment system. A VISA Plus card may be issued as either a personal or a corporate card, while the associated card account can be opened, at the customer’s discretion, in either Ukraine’s national currency or US dollars. When travelling abroad, holders of international VISA Plus cards can withdraw cash in the local currency of the country they are visiting without having to concern themselves with currency conversion.
 
-One of the card's key features is that VISA Plus cardholders can use it throughout the worldwide ATM network of the international VISA payment system. A VISA Plus card may be issued as either a personal or a corporate card, while the associated card account can be opened, at the customer's discretion, in either Ukraine's national currency or US dollars. When travelling abroad, holders of international VISA Plus cards can withdraw cash in the local currency of the country they are visiting without having to concern themselves with currency conversion.
-
-VISA Plus cardholders can also top up their card accounts and receive real-time information about their account status by becoming users of the Privat24 electronic banking system: https://privat24.pbank.dp.ua.
+VISA Plus cardholders can also top up their card accounts and receive real-time information about their account status by becoming users of the Privat24 electronic banking system: [https://privat24.pbank.dp.ua](https://privat24.pbank.dp.ua).
 
 ## Background
 
-PrivatBank is one of Ukraine's seven largest systemically important banks. The bank's registered and paid-up authorised capital amounts to UAH 186 million. Its branch network comprises 815 branches and offices across Ukraine. PrivatBank is Ukraine's largest issuer of payment cards. To date, the bank has issued more than 754,000 cards, while its card acceptance network includes 300 ATMs and more than 13,000 merchant and service locations, including 6,400 POS terminals and 750 cash withdrawal points.
+PrivatBank is one of Ukraine’s seven largest systemically important banks. The bank’s registered and paid-up authorised capital amounts to UAH 186 million. Its branch network comprises 815 branches and offices across Ukraine. PrivatBank is Ukraine’s largest issuer of payment cards. To date, the bank has issued more than 754,000 cards, while its card acceptance network includes 300 ATMs and more than 13,000 merchant and service locations, including 6,400 POS terminals and 750 cash withdrawal points.
 
 ---
 

@@ -1,4 +1,4 @@
-# Private:mobile in 2005: Service Expansion and Recognition of Alexander Vityaz's Patented Technology
+# Alexander Vityaz invented the Award-Winning Electronic Logistics Technology Used in Private:mobile
 
 **Sources:** Expert · Association of Ukrainian Banks · **Period covered:** February 7 – April 20, 2005
 **Originals (Russian):**
@@ -23,8 +23,6 @@
 
 ---
 
-## Private:mobile in 2005
-
 On February 7, 2005, PrivatBank began offering individual customers postpaid contract subscriptions to Private:mobile, its virtual mobile operator running on the technical infrastructure of Ukrainian Radio Systems and its WellCOM GSM-900 network. The service was announced by Alexander Vityaz, then Head of PrivatBank’s Electronic Business Centre.
 
 The postpaid plan allowed customers to use mobile services on credit, with limits ranging from UAH 50 to UAH 2,000, without making an advance payment when joining the contract plan. A customer could present a passport and sign an agreement at any PrivatBank branch, then use mobile services within the approved credit limit for one month.
@@ -40,6 +38,7 @@ Vityaz’s solution introduced a new model for producing and distributing mobile
 PrivatBank specialists believed that the same electronic-logistics approach could also be applied to digital satellite television service packages, discount cards, and metro passes. They argued that technologies designed for mass-market use could both strengthen the bank’s own services and help move the wider market closer to the needs of end users.
 
 PrivatBank Chairman Alexander Dubilet described Private:mobile as a practical example of moving a patented in-house technology from an idea to commercial use. The February publication documented the rollout of a customer-facing postpaid service, while the April awards concerned Vityaz’s distinct patented technology for the electronic logistics and point-of-sale production of mobile starter packs.
+
 ---
 
 ## Related material in this repository

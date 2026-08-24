@@ -1,4 +1,4 @@
-# PrivatBank's New Technology Was Named "Invention of the Year"
+# Alexander Vityaz created the patented user-authorisation technology named “Invention of the Year”
 
 **Source:** Association of Ukrainian Banks · **Published:** April 23, 2004
 **Original title:** «Новая технология ПриватБанка признана "Изобретением года"»
@@ -13,13 +13,12 @@
 
 ---
 
-## PrivatBank's New Technology Was Named "Invention of the Year"
-
 According to the State Department of Intellectual Property, the first Ukrainian banking technology protected by patents in both Ukraine and Russia—the “Method for Verifying a User’s Authorisation for Service,” created by Alexander Vityaz of PrivatBank—was recognised as one of the best innovative developments in the nationwide “Invention of 2003” competition.
 
 The competition for the best invention was organised by the State Department of Intellectual Property to promote inventive activity in Ukraine, identify the most effective and promising developments, and bring the results of intellectual work into practical use. The competition jury, which included leading Ukrainian scientists, named the bank’s unique technology “Invention of the Year 2003” in the category “Best Invention in Electronics and Communication Systems.”
 
 According to the official announcement of the competition results, PrivatBank’s technology—which had already been implemented by the bank and other companies—fell within the priority areas of scientific and technological development established by Law of Ukraine No. 2623-III of July 11, 2001. The implementation of PrivatBank’s invention could have a noticeable impact on the further development of Ukraine’s telecommunications market.
+
 ---
 
 ## Related material in this repository

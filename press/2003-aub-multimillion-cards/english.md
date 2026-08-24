@@ -1,4 +1,4 @@
-# PrivatBank Became Ukraine's First Multimillion-Card Issuer
+# Alexander Vityaz explained ATM-Based Privat24 Enrolment
 
 **Source:** Association of Ukrainian Banks · **Published:** December 18, 2003
 **Original title:** «ПриватБанк – первый мультимиллионер карточного рынка Украины»
@@ -13,8 +13,6 @@
 > source as published on December 18, 2003.
 
 ---
-
-## PrivatBank Became Ukraine's First Multimillion-Card Issuer
 
 By the date of publication, PrivatBank had issued more than four million payment cards through the international Visa and MasterCard payment systems. PrivatBank Chairman Alexander Dubilet announced the milestone during a press conference at UNIAN. According to him, developing the most advanced technologies and introducing new, forward-looking products had always been—and remained—among the bank’s principal priorities. Since the beginning of 2003, the number of cards issued by the bank had increased 1.8-fold, while its market share had reached 43%.
 
@@ -43,6 +41,7 @@ The NBU Governor also noted that the experience PrivatBank had accumulated over 
 PrivatBank was a leader in Ukraine’s payment-card market and one of the country’s banks that substantially influenced technological development trends across the banking sector, according to a message addressed to the bank by Oleksandr Suhoniako, President of the Association of Ukrainian Banks.
 
 “Thanks to your activity, the most advanced technologies and services—those that seemed like science fiction only two or three years ago—have become familiar to millions of customers. We are confident that PrivatBank’s continued work will help strengthen public trust in the banking system and introduce new standards of banking service in Ukraine,” the message said.
+
 ---
 
 ## Related material in this repository

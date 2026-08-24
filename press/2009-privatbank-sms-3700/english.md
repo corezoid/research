@@ -1,4 +1,4 @@
-# PrivatBank Set to Drive Fee-Based Information Services Out of the Market
+# Alexander Vityaz presented PrivatBank’s 12-language 3700 SMS Information service
 
 **Source:** OBOZ.UA / Obozrevatel · **Published:** February 3, 2009, 15:57
 **Original title:** «ПриватБанк выдавит с рынка платные справочные службы»
@@ -12,8 +12,6 @@
 > Wording and service claims reflect the context of February 3, 2009.
 
 ---
-
-## PrivatBank Set to Drive Fee-Based Information Services Out of the Market
 
 By sending an SMS to 3700, anyone could receive an answer to virtually any question.
 
@@ -30,6 +28,7 @@ The new service also benefited the bank’s corporate clients. If someone asked,
 Another feature was multilingual support. The 3700 service answered messages in 12 languages: Ukrainian, Russian, English, German, Portuguese, Italian, Spanish, Latvian, Polish, Greek, Georgian, and Hebrew.
 
 The SMS answers expanded PrivatBank’s range of mobile services. At the time of publication, the bank’s mobile-banking services allowed customers to check account balances, pay utility bills, block a card, purchase mobile-phone and Skype vouchers, and send money transfers.
+
 ---
 
 ## Related material in this repository
