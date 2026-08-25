@@ -20,12 +20,13 @@ context, not contributions. Links to papers below are therefore "see also" only.
 
 ## Video and podcast
 
-Long-form recorded conversations. These are linked, not archived: the recording on the
-platform is the source, and no transcript is kept here.
+Long-form recorded conversations. The recording on the platform is always the source; a
+transcript appears here only when it was prepared by a person from the recording, and is
+labelled as an edited transcript.
 
-| Date | Show | Title | Language | Length | Themes | Related research |
-|---|---|---|---|---|---|---|
-| 2020-02-05 | Большая Рыба (Big Fish) with Alexander Kolb | [Александр Витязь. Приват24 сегодня – это мертвая лошадь. Экс топ-менеджер ПриватБанк](https://www.youtube.com/watch?v=u5LZWq9m6aQ) | Russian | 1:14:53 | PrivatBank; Privat24; innovation after nationalization; Corezoid; actor graphs | *A Phase Model of Enterprise Evolution*<br>*Company Brain*<br>*The Computable Boundary of the Firm* |
+| Date | Show | Title | Language | Length | Themes | Related research | English version |
+|---|---|---|---|---|---|---|---|
+| 2020-02-05 | Большая Рыба (Big Fish) with Alexander Kolb | [Александр Витязь. Приват24 сегодня – это мертвая лошадь. Экс топ-менеджер ПриватБанк](https://www.youtube.com/watch?v=u5LZWq9m6aQ) | Russian | 1:14:53 | PrivatBank; Privat24; innovation after nationalization; Corezoid; actor graphs | *A Phase Model of Enterprise Evolution*<br>*Company Brain*<br>*The Computable Boundary of the Firm* | [Edited transcript](./2020-bigfish-privat24-dead-horse/english.md) |
 
 ## Rights
 
