@@ -45,7 +45,7 @@ Papers with a `zenodo` DOI have Zenodo as the version of record; papers with an 
 Work in progress is reviewed privately and appears here on publication:
 
 - **Management Debt — Part II**: account structure, double-entry attribution, platform implementation *(announced in Part I)*
-- **The Actor Codex** — book, working draft *(Chapter X cited in The Computable Boundary of the Firm)*
+- **[Codex of Actors](codex-of-actors/)** — book, released chapter by chapter *(working title <em>The Actor Codex</em>; a draft chapter is cited in The Computable Boundary of the Firm)*
 
 ## Patents
 

@@ -127,6 +127,16 @@ not as a folder per family:
 - Scope decision: Russian, Mexican and Japanese members of the same families, industrial designs,
   and trademarks are deliberately excluded.
 
+## The book (codex-of-actors/)
+
+*Codex of Actors* is released chapter by chapter into `codex-of-actors/`, one folder per chapter
+(`chapter-<NN>-<slug>/`), each holding the text as supplied by the author (`chapter.pdf` and/or
+`chapter.md`); the chapter table in `codex-of-actors/README.md` is the authoritative index.
+Chapters are working text and may be revised until the book is complete, so they stay **outside**
+`tools/manifest.json`, `bibliography.bib`, and the citation graph; links between chapters and
+papers use "See also" only. When the finished book (or a chapter) is deposited on Zenodo, it
+graduates to the normal paper workflow — folder in `papers/`, manifest entry, DOI badge, tags.
+
 ## Interviews
 
 Public interviews and profiles live under `interviews/`, indexed by the table in
