@@ -1,0 +1,229 @@
+#!/usr/bin/env python3
+"""Generate the AI-facing indexes of the corpus from the repository's own READMEs.
+
+Outputs (never edit by hand — run this script):
+  skills/corezoid-research/references/index.md   catalogue read by the Agent Skill
+  llms.txt                                       llmstxt.org index for any AI client
+
+  python tools/build_skill.py           write both files
+  python tools/build_skill.py --check   exit 1 if either file is stale (used in CI)
+  python tools/build_skill.py --bundle DIR
+                                        also assemble a self-contained copy of the skill
+                                        (SKILL.md + references + corpus/ texts) in DIR,
+                                        for upload to claude.ai or other clients
+
+Paths inside index.md are relative to the corpus root, so the same index serves the
+in-repository skill (root = the repository) and the bundle (root = corpus/).
+"""
+import glob
+import os
+import re
+import shutil
+import sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SKILL = os.path.join(ROOT, "skills", "corezoid-research")
+INDEX = os.path.join(SKILL, "references", "index.md")
+LLMS = os.path.join(ROOT, "llms.txt")
+RAW = "https://raw.githubusercontent.com/corezoid/research/main/"
+
+
+def read(path):
+    with open(os.path.join(ROOT, path), encoding="utf-8") as f:
+        return f.read()
+
+
+def h1(text):
+    m = re.search(r"^# (.+)$", text, re.M)
+    return m.group(1).strip() if m else ""
+
+
+def section(text, name):
+    m = re.search(rf"^## {name}\n(.*?)(?=^## |\Z)", text, re.S | re.M)
+    return m.group(1).strip() if m else ""
+
+
+def field(text, label):
+    m = re.search(rf"\*\*{label}:\*\*\s*(.+?)(?:\s+·|\n|$)", text)
+    return m.group(1).strip() if m else ""
+
+
+def delink(s):
+    """Markdown links -> their text; relative paths would be wrong in the index."""
+    return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+
+
+def doi(text):
+    m = re.search(r"doi\.org/(10\.[^\s)\]]+)", text)
+    if m:
+        return m.group(1)
+    m = re.search(r"researchgate\.net/publication/(\d+)", text)
+    return f"none yet (ResearchGate {m.group(1)})" if m else ""
+
+
+def best_text(folder):
+    for name in ("paper.md", "chapter.md", "english.md", "slides.md", "paper.pdf", "volume.pdf", "chapter.pdf", "patent.pdf"):
+        p = os.path.join(folder, name)
+        if os.path.exists(os.path.join(ROOT, p)):
+            return p
+    return os.path.join(folder, "README.md")
+
+
+def papers():
+    out = []
+    readmes = sorted(glob.glob(os.path.join(ROOT, "papers", "*", "README.md")))
+    readmes += sorted(glob.glob(os.path.join(ROOT, "papers", "*", "part-*", "README.md")))
+    for r in readmes:
+        folder = os.path.relpath(os.path.dirname(r), ROOT)
+        t = read(os.path.join(folder, "README.md"))
+        abstract = section(t, "Abstract") or section(t, "Summary")
+        kw = re.search(r"^\*\*Keywords:\*\*\s*(.+)$", abstract, re.M)
+        abstract = re.sub(r"^\*\*Keywords:\*\*.*$", "", abstract, flags=re.M).strip()
+        rel = [delink(l.strip()[2:]) for l in section(t, "Related work in this repository").splitlines()
+               if l.startswith("- **Builds on**")]
+        out.append({
+            "folder": folder, "title": h1(t), "published": field(t, "Published"),
+            "doi": doi(t), "abstract": delink(abstract), "keywords": kw.group(1).strip() if kw else "",
+            "builds_on": rel, "text": best_text(folder),
+        })
+    return out
+
+
+def primary(kind):
+    out = []
+    for folder in sorted(glob.glob(os.path.join(ROOT, kind, "*", ""))):
+        folder = os.path.relpath(folder, ROOT)
+        text = best_text(folder)
+        if text.endswith("README.md"):
+            continue
+        t = read(text)
+        meta = [delink(l.strip()) for l in t.splitlines()[1:8] if l.startswith("**")]
+        out.append({"folder": folder, "title": h1(t), "meta": meta, "text": text})
+    return out
+
+
+def patents():
+    out = []
+    for r in sorted(glob.glob(os.path.join(ROOT, "patents", "*", "README.md"))):
+        folder = os.path.relpath(os.path.dirname(r), ROOT)
+        t = read(os.path.join(folder, "README.md"))
+        abstract = section(t, "Abstract")
+        out.append({"folder": folder, "title": h1(t), "abstract": delink(abstract),
+                    # README carries abstract and bibliographic data; the scanned PDFs are
+                    # multi-megabyte and stay out of the bundle (they remain in the repository).
+                    "text": os.path.join(folder, "README.md")})
+    return out
+
+
+def chapters():
+    out = []
+    for folder in sorted(glob.glob(os.path.join(ROOT, "codex-of-actors", "chapter-*", ""))):
+        folder = os.path.relpath(folder, ROOT)
+        text = best_text(folder)
+        out.append({"folder": folder, "title": h1(read(text)) if text.endswith(".md") else folder, "text": text})
+    return out
+
+
+def build_index():
+    L = ["<!-- GENERATED by tools/build_skill.py from the corpus READMEs. Do not edit by hand. -->",
+         "# Corpus index", "",
+         "Every work in the corpus. Paths are relative to the corpus root (see SKILL.md). "
+         "`text` is the best readable file: `paper.md` where one exists, otherwise the canonical PDF.", ""]
+    L += ["## Papers (research contributions — cite by DOI)", ""]
+    for p in papers():
+        L.append(f"### {p['title']}")
+        L.append(f"- folder: `{p['folder']}` · text: `{p['text']}`")
+        L.append(f"- published: {p['published']} · DOI: {p['doi'] or '—'}")
+        if p["keywords"]:
+            L.append(f"- keywords: {p['keywords']}")
+        for b in p["builds_on"]:
+            L.append(f"- {b}")
+        L += ["", p["abstract"], ""]
+    L += ["## Book — Codex of Actors (work in progress, released chapter by chapter)", ""]
+    for c in chapters():
+        L.append(f"- **{c['title']}** — text: `{c['text']}`")
+    L += ["", "## Interviews (primary sources — the author's own words, not results)", ""]
+    for i in primary("interviews"):
+        L.append(f"- **{i['title']}** — text: `{i['text']}`")
+        L += [f"  - {m}" for m in i["meta"]]
+    L += ["", "## Press releases (historical record, 2001–2009)", ""]
+    for i in primary("press"):
+        L.append(f"- **{i['title']}** — text: `{i['text']}`")
+        L += [f"  - {m}" for m in i["meta"]]
+    L += ["", "## Patents", ""]
+    for p in patents():
+        L.append(f"- **{p['title']}** — `{p['text']}`")
+        if p["abstract"]:
+            L.append(f"  - {p['abstract']}")
+    L.append("")
+    return "\n".join(L)
+
+
+def build_llms():
+    L = ["# Corezoid Research",
+         "",
+         "> Research corpus of Alexander Vityaz (Corezoid Inc., ORCID 0009-0006-0489-7881): the actor model, "
+         "Actor Graphs, active transaction graphs, organisational cybernetics (Conant–Ashby), the computable "
+         "theory of the firm, the digital twin of an organisation, and the ontology of transition. "
+         "Papers carry version DOIs (Zenodo or ResearchGate); interviews and press releases are primary "
+         "sources outside the citation graph. Text license CC BY 4.0.",
+         "",
+         f"- [Full catalogue with abstracts]({RAW}skills/corezoid-research/references/index.md)",
+         f"- [Glossary of terms]({RAW}skills/corezoid-research/references/glossary.md)",
+         f"- [Publishing and citation rules]({RAW}PUBLISHING.md)",
+         "", "## Papers", ""]
+    for p in papers():
+        first = re.split(r"(?<=\.)\s", p["abstract"].replace("\n", " "), maxsplit=1)[0]
+        L.append(f"- [{p['title']}]({RAW}{p['text']}): {first} DOI {p['doi'] or '—'}")
+    L += ["", "## Book", ""]
+    L += [f"- [{c['title']}]({RAW}{c['text']})" for c in chapters()]
+    L += ["", "## Optional", ""]
+    L += [f"- [{i['title']}]({RAW}{i['text']}): interview" for i in primary("interviews")]
+    L += [f"- [{i['title']}]({RAW}{i['text']}): press release" for i in primary("press")]
+    L += [f"- [{p['title']}]({RAW}{p['folder']}/README.md): patent" for p in patents()]
+    L.append("")
+    return "\n".join(L)
+
+
+def bundle(dest):
+    """Self-contained skill: SKILL.md + references + every file the index points to."""
+    dest = os.path.join(dest, "corezoid-research")
+    if os.path.exists(dest):
+        shutil.rmtree(dest)
+    shutil.copytree(SKILL, dest)
+    paths = set(re.findall(r"`([^`]+/[^`]+\.(?:md|pdf))`", build_index()))
+    for rel in sorted(paths):
+        src = os.path.join(ROOT, rel)
+        if os.path.isfile(src):
+            os.makedirs(os.path.dirname(os.path.join(dest, "corpus", rel)), exist_ok=True)
+            shutil.copy2(src, os.path.join(dest, "corpus", rel))
+    return dest
+
+
+def main():
+    outputs = {INDEX: build_index(), LLMS: build_llms()}
+    missing = [p for p in re.findall(r"`([^`]+/[^`]+\.(?:md|pdf))`", outputs[INDEX])
+               if not os.path.exists(os.path.join(ROOT, p))]
+    glossary = read(os.path.join("skills", "corezoid-research", "references", "glossary.md"))
+    missing += [p for p in re.findall(r"`((?:papers|patents|interviews|press|codex-of-actors)/[^`]+)`", glossary)
+                if not os.path.exists(os.path.join(ROOT, p))]
+    if missing:
+        sys.exit(f"skill references point to missing paths: {missing}")
+    if "--check" in sys.argv:
+        stale = [os.path.relpath(p, ROOT) for p, c in outputs.items()
+                 if not os.path.exists(p) or open(p, encoding="utf-8").read() != c]
+        if stale:
+            sys.exit(f"stale: {', '.join(stale)} — run python tools/build_skill.py and commit")
+        print("skill index and llms.txt are up to date")
+        return
+    for p, c in outputs.items():
+        os.makedirs(os.path.dirname(p), exist_ok=True)
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(c)
+        print(f"wrote {os.path.relpath(p, ROOT)}")
+    if "--bundle" in sys.argv:
+        print(f"bundled {bundle(sys.argv[sys.argv.index('--bundle') + 1])}")
+
+
+if __name__ == "__main__":
+    main()

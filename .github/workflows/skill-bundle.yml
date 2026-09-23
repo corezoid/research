@@ -1,0 +1,33 @@
+name: skill bundle
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Assemble self-contained skill (SKILL.md + references + corpus texts)
+        run: |
+          python tools/build_skill.py --bundle dist
+          cd dist && zip -qr ../corezoid-research-skill.zip corezoid-research
+
+      - name: Publish as the rolling "skill" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete skill --yes --cleanup-tag 2>/dev/null || true
+          gh release create skill corezoid-research-skill.zip \
+            --title "Claude skill: corezoid-research" \
+            --notes "Self-contained Agent Skill with the full corpus, rebuilt from main on every push ($(git rev-parse --short HEAD)). Upload the zip in claude.ai → Settings → Capabilities → Skills."

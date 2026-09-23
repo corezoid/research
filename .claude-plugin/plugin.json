@@ -1,0 +1,9 @@
+{
+  "name": "corezoid-research",
+  "description": "Domain context from the Corezoid research corpus by Alexander Vityaz: Actor Graphs, active transaction graphs, organisational cybernetics, the digital twin of an organisation, and the theory behind Corezoid and Simulator.Company.",
+  "version": "1.0.0",
+  "author": { "name": "Corezoid Inc." },
+  "homepage": "https://github.com/corezoid/research",
+  "repository": "https://github.com/corezoid/research",
+  "license": "CC-BY-4.0"
+}

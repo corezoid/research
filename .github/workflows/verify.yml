@@ -25,5 +25,8 @@ jobs:
       - name: Relative markdown links resolve
         run: python tools/check_links.py .
 
+      - name: Skill index and llms.txt are in sync with the corpus
+        run: python tools/build_skill.py --check
+
       - name: Corpus invariants (manifest, checksums vs Zenodo, DOIs, bibtex sync, citation graph)
         run: python tools/verify.py

@@ -1,0 +1,11 @@
+{
+  "name": "corezoid",
+  "owner": { "name": "Corezoid Inc." },
+  "plugins": [
+    {
+      "name": "corezoid-research",
+      "source": "./",
+      "description": "Domain context from the Corezoid research corpus (Alexander Vityaz): papers, the Codex of Actors book, interviews, press history and patents."
+    }
+  ]
+}

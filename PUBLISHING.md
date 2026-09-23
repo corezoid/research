@@ -201,6 +201,16 @@ section as a plain-language announcement, and never create a folder, citekey, or
 entry for it. When a title appears in a tracker or a content plan with no DOI and no PDF, check
 the blog before treating it as a missing publication.
 
+## AI skill (skills/corezoid-research/)
+
+`skills/corezoid-research/references/index.md` and the root `llms.txt` are generated from the
+corpus READMEs by `python tools/build_skill.py` — never edit them by hand; CI (`--check`) fails when
+they are stale, so run the script in the same commit that adds or changes any paper, chapter,
+interview, press release or patent. `SKILL.md` and `references/glossary.md` are hand-written: add a
+glossary entry, with its defining work, when a new work introduces a term. The self-contained zip
+for claude.ai is rebuilt from `main` by `.github/workflows/skill-bundle.yml`; patent PDFs are
+represented by their READMEs to keep it small.
+
 ## Metadata rules
 
 - One human-authored source of truth: the paper's front matter + root `CITATION.cff`. Everything else (BibTeX, badges) is derived from it.
