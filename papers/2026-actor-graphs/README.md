@@ -22,6 +22,7 @@ Recursive structure is given by a finitary polynomial functor and its final coal
 | File | Description |
 |------|-------------|
 | [paper.pdf](paper.pdf) | Canonical PDF (identical to the Zenodo deposit) |
+| [paper.md](paper.md) | Readable markdown version |
 
 ## How to cite
 

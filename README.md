@@ -28,7 +28,7 @@ Every paper is published as an immutable, citable record on [Zenodo](https://zen
 | 12 | [Quantum Learning: From Educational Programs to Managing Changes in Human Capability](papers/2026-quantum-learning/) | Jul 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21704460-blue.svg)](https://doi.org/10.5281/zenodo.21704460) | [PDF](papers/2026-quantum-learning/paper.pdf) · [MD](papers/2026-quantum-learning/paper.md) |
 | 13 | [The Compact Company: An Actor-Graph Theory of the Firm in the LLM Era](papers/2026-compact-company/) | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21774758-blue.svg)](https://doi.org/10.5281/zenodo.21774758) | [PDF](papers/2026-compact-company/paper.pdf) · [MD](papers/2026-compact-company/paper.md) |
 | 14 | [How to Become a Smart Company](papers/2026-how-to-become-a-smart-company/) *(essay)* | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21792643-blue.svg)](https://doi.org/10.5281/zenodo.21792643) | [PDF](papers/2026-how-to-become-a-smart-company/paper.pdf) · [MD](papers/2026-how-to-become-a-smart-company/paper.md) |
-| 15 | [Actor Graphs: Triple-Identity Accountable Mediation and Coinductive Disclosure](papers/2026-actor-graphs/) | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21995981-blue.svg)](https://doi.org/10.5281/zenodo.21995981) | [PDF](papers/2026-actor-graphs/paper.pdf) |
+| 15 | [Actor Graphs: Triple-Identity Accountable Mediation and Coinductive Disclosure](papers/2026-actor-graphs/) | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21995981-blue.svg)](https://doi.org/10.5281/zenodo.21995981) | [PDF](papers/2026-actor-graphs/paper.pdf) · [MD](papers/2026-actor-graphs/paper.md) |
 
 ### Ontology of Transition — parts
 
@@ -181,7 +181,7 @@ The full lifecycle — drafting, review, Zenodo DOI deposit, publication, versio
 
 - [ ] Rendered reading site (Quarto + GitHub Pages) once the repository is public
 - [ ] Zenodo deposits (and DOIs) for the papers whose version of record is currently ResearchGate — first *What Is Work* and *Metaunderstanding*, which have no DOI at all
-- [ ] Markdown reading versions for the PDF-only papers
+- [x] Markdown reading versions for the PDF-only papers
 - [ ] Zenodo–GitHub release integration for collection snapshots
 - [ ] Ukrainian-language interviews: link Ukrainian originals as reading versions where no translation is needed
 

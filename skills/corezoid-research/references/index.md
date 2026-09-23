@@ -18,7 +18,7 @@ The framework can be extended upward with a signal layer, whose projection onto 
 The resulting framework is intended not as a replacement for classical models of computation but as a semantic envelope for transactional interactive systems, including workflow engines, enterprise platforms, and mixed human–AI operational environments.
 
 ### Actor Graphs: Triple-Identity Accountable Mediation and Coinductive Disclosure
-- folder: `papers/2026-actor-graphs` · text: `papers/2026-actor-graphs/paper.pdf`
+- folder: `papers/2026-actor-graphs` · text: `papers/2026-actor-graphs/paper.md`
 - published: August 18, 2026 · DOI: 10.5281/zenodo.21995981
 - keywords: Actor Graphs; actor-valued edges; triple-identity accountable mediation; typed link references; transaction-sourced accounts; coinductive disclosure; identity-preserving bisimulation; presheaf accountability skeleton; signature closure
 - **Builds on** Active Transaction Graphs — the execution specialisation of Actor Graphs: transaction primacy, first-class edge mediation, recursive actors, and (result, trace, ledger) semantics.
