@@ -37,7 +37,7 @@ Account mutation is transaction-sourced. Typed account state is a dependent sum;
 Recursive structure is given by a finitary polynomial functor and its final coalgebra. Raw finite observations are adequate for identity-preserving bisimulation under C0–C7, while registry-backed back-reference compression is proved adequate under S1–S4. At the resolved accountability layer, ActorID, LinkID, TransactionID, AccountCoordinate, and PostingOccurrence sorts form an ID-normal skeleton. Its instance category is a presheaf topos with pointwise limits and colimits, adhesive structural gluing, and a categorical obstruction to reconstruction after identity collapse. Identity-preserving adjacency stores (LinkID, EdgeActorID) pairs; mediator-only and numeric matrices are explicit lossy projections. Closure under graph-valued continuation is proved at the signature level and interpreted, without a geometric claim, as structural self-similarity. Programming-language macro-expressibility and relative maximality remain open programmes.
 
 ### Beyond Programming Languages
-- folder: `papers/2026-beyond-programming-languages` · text: `papers/2026-beyond-programming-languages/paper.pdf`
+- folder: `papers/2026-beyond-programming-languages` · text: `papers/2026-beyond-programming-languages/paper.md`
 - published: July 2026 · DOI: 10.5281/zenodo.21458098
 - keywords: artificial intelligence; programming languages; Actor Model; Actor Graph; executable models; model-driven engineering; workflow systems; software architecture; formal verification
 
@@ -58,7 +58,7 @@ The Conant–Ashby Good Regulator Theorem is applied within its proper scope. It
 The transition to a Compact Company constitutes an institutional migration. The explication of roles, authority, and organizational state redistributes power and reduces opacity rents. A minimal human core must therefore preserve formal resilience together with a verifiable capacity for human response through hot and warm reserves.
 
 ### Company Brain: The Architecture of General Company Intelligence
-- folder: `papers/2026-company-brain` · text: `papers/2026-company-brain/paper.pdf`
+- folder: `papers/2026-company-brain` · text: `papers/2026-company-brain/paper.md`
 - published: April 2026 · DOI: 10.13140/RG.2.2.28274.88007
 - keywords: Company Brain, Actor Graph, digital twin of organisation, Conant–Ashby theorem, Viable System Model, management debt, autonomous enterprise, hybrid intelligence, organisational cybernetics, enterprise architecture.
 
@@ -100,7 +100,7 @@ This is an essay rather than a formal paper: it states the architectural argumen
 This article develops a formal framework for conceptualising and accounting for management debt as a distinct accounting object. Management debt is defined as the consequence of a management decision that has not been made, has been deferred, has been inadequately formalised, or has not been executed, where such absence increases organisational ambiguity, delays, dependence on manual intervention, redundant coordination, the probability of errors, and the probability of loss. Particular attention is given to *omission debt*, understood as management debt arising from the failure of an obligated party to make a required decision. The article specifies the relevant terminology, accounting metrics, recognition principles, and attribution rules for recording materialised omission debt and direct losses on the accounts of responsible actors. The proposed measurement approach deliberately excludes survey-based indicators and relies instead on observable organisational evidence, including events, decisions, unmade decisions, timelines, approval routes, digital traces, and materialised consequences. The framework contributes to the formalisation of managerial accountability by linking unmade decisions, responsible decision owners, materialised risks, and measurable economic consequences.
 
 ### Metaunderstanding: Recursive Compression, Tag Accounts, and Actor Graphs as the Next Layer of Mind in the Age of AI
-- folder: `papers/2026-metaunderstanding` · text: `papers/2026-metaunderstanding/paper.pdf`
+- folder: `papers/2026-metaunderstanding` · text: `papers/2026-metaunderstanding/paper.md`
 - published: April 2026 · DOI: none yet (ResearchGate 403758098)
 
 The mind is not a library but a compressor-regulator. The Conant–Ashby theorem requires that every good regulator contain a model of the system it regulates [1]. The cognitive bottleneck of working memory and attention requires that this model be compressed [2, 3]. It follows that intelligence-as-control must model, and intelligence-as-computation must compress.
@@ -116,7 +116,7 @@ At the computational level, TAG ACCOUNTS-OS is introduced on top of ACTOR GRAPHS
 The paper rests on three tiers of claims: classical scientific results (Conant–Ashby, INFORMATION BOTTLENECK, MDL, chunking), the author's Noise Suppression Theorem, and the engineering construct of TAG ACCOUNTS + ACTOR GRAPHS.
 
 ### On the Necessity of Noise Suppression for Minimal Good Regulators: Factorization Theorems and a Closure Conjecture
-- folder: `papers/2026-noise-suppression-minimal-good-regulators` · text: `papers/2026-noise-suppression-minimal-good-regulators/paper.pdf`
+- folder: `papers/2026-noise-suppression-minimal-good-regulators` · text: `papers/2026-noise-suppression-minimal-good-regulators/paper.md`
 - published: January 2026 · DOI: 10.13140/RG.2.2.33143.07843
 - keywords: cybernetics, regulation theory, noise suppression, Conant–Ashby theorem, Ashby's law, information bottleneck, state abstraction, meta-regulation, AI, large language models
 
@@ -138,7 +138,7 @@ Part III quantifies the work required for reuse. For a finite classical footprin
 A recognition scheme operationalizes thinghood: physical objects appear as stable macroregimes (types) and individual realizations (tokens) that persist against the flow of transitions, with a sharp phase boundary for that persistence derived in Part II. The volume connects the event-ordering tradition of distributed systems, rate–distortion theory with its indirect branch, and stochastic thermodynamics in one formal language. All quantitative results are checked numerically; the closed forms agree with a Blahut–Arimoto solver to machine precision.
 
 ### A Phase Model of Enterprise Evolution: From Fragmentation to the Autonomous Enterprise
-- folder: `papers/2026-phase-model-of-enterprise-evolution` · text: `papers/2026-phase-model-of-enterprise-evolution/paper.pdf`
+- folder: `papers/2026-phase-model-of-enterprise-evolution` · text: `papers/2026-phase-model-of-enterprise-evolution/paper.md`
 - published: March 2026 · DOI: 10.13140/RG.2.2.24883.39207
 - keywords: cybernetics, regulation theory, noise suppression, Conant–Ashby theorem, enterprise architecture, digital twin, management debt, actor graphs.
 
@@ -154,7 +154,7 @@ This paper presents a four-phase model of enterprise evolution grounded in two r
 The modern educational system is organized around large, preassembled units: the course, discipline, semester, program, qualification, and degree. This architecture emerged in a world where knowledge changed relatively slowly, professions remained stable, and professional capabilities had long life cycles. Today, technologies and workforce requirements change faster than universities can update their programs. Employers need a continuous reskilling system, while working adults need a precise way to close the gap between their current capabilities and the next task. Learning becomes their third job, alongside paid employment and family responsibilities. At the labor-market level, this gap appears as structural unemployment: vacancies and job seekers coexist, but the graphs of required and available capabilities do not match. Artificial intelligence accelerates this mismatch by automating some classes of tasks while intensifying labor shortages in others. This paper proposes the concept of quantum learning: an event-driven, discrete, continuous, and executable system for managing changes in human capability. Its fundamental unit is the learning quantum—a minimal, completed, and verified transition from one capability state to another. Quantum learning replaces the linear educational program with an individual graph of transitions. Students, teachers, mentors, experts, employers, and educational organizations are represented by bounded digital twins. Tasks, capabilities, quanta, attempts, errors, evidence, and authorizations exist as autonomous actors in an executable environment. Changing the unit of learning also changes the economics of education. A student pays for the individual pathway actually completed, while capabilities already demonstrated reduce its duration and price. The university moves from a one-time sale of a degree to the continuous stewardship of the graphs of people and companies; the teacher scales expertise through reusable quanta, simulations, AI, and work on complex exceptions. Simulator is the Corezoid Inc. platform on which the author is implementing this architecture. The concept itself is technologically neutral and can be implemented in any environment capable of executing an event-driven graph of actors, states, and transitions. The primary learner for whom this system is designed is the working adult, who simultaneously carries three jobs: paid employment, family responsibilities, and continuous learning.
 
 ### Regulatory Quality of Asymptotic Models: A Quantitative Framework with Arithmetic Benchmark
-- folder: `papers/2026-regulatory-quality-asymptotic-models` · text: `papers/2026-regulatory-quality-asymptotic-models/paper.pdf`
+- folder: `papers/2026-regulatory-quality-asymptotic-models` · text: `papers/2026-regulatory-quality-asymptotic-models/paper.md`
 - published: March 2026 · DOI: 10.13140/RG.2.2.31082.79042
 - keywords: regulation theory, Conant–Ashby theorem, Ashby's Law, model quality, prime distribution, noise suppression, threshold phenomena
 
@@ -165,7 +165,7 @@ We introduce a quantitative framework for measuring how well an asymptotic model
 **MSC 2020:** 93B05 (Controllability), 94A17 (Measures of information), 11N05 (Distribution of primes)
 
 ### What Is Work: The Law of Information Conservation and the AI Productivity Paradox in High-Context Knowledge Work
-- folder: `papers/2026-what-is-work` · text: `papers/2026-what-is-work/paper.pdf`
+- folder: `papers/2026-what-is-work` · text: `papers/2026-what-is-work/paper.md`
 - published: April 2026 · DOI: none yet (ResearchGate 403936327)
 
 The paper asks what work is from an informational point of view, and whether AI actually reduces its volume. It answers with three stated invariants. The **Law of Information Conservation** holds that artifact quality is a function of the information accounted for, so the information volume *I_Q* required for a given quality is fixed by the task rather than by the tool — removing a participant redistributes that burden without shrinking it. The **Law of the Bottleneck** locates the binding constraint in human cognitive throughput: AI generates roughly 200 times faster than a human can read with comprehension, and working memory caps verification at a few chunks per second, so the queue of unread material grows instead of the output. The **Law of Factorization** applies the author's Vityaz–Ashby theorem, under which a minimal good regulator factorizes into a model of the system and a *deterministic* noise filter; an error-prone filter makes the regulator either non-minimal or prone to false control actions. From these the paper derives the productivity paradox of high-context knowledge work — the prototype arrives in seconds while total time to a given quality does not fall — along with a context threshold, the collapse from a working pair to a lone initiator, and the resulting accumulation of management debt. It closes by positioning "AImatics" (LLM as interface, executable graph as the deterministic filter) as the path to a restored factorization, and states its own genre limits explicitly: an essay with theorems, whose numerical illustrations demonstrate a method rather than confirm a hypothesis.

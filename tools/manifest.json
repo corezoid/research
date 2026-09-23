@@ -9,7 +9,7 @@
       "doi": "10.13140/RG.2.2.33143.07843",
       "zenodo_id": null,
       "rg_id": 400615896,
-      "has_md": false
+      "has_md": true
     },
     {
       "path": "papers/2026-regulatory-quality-asymptotic-models",
@@ -19,7 +19,7 @@
       "doi": "10.13140/RG.2.2.31082.79042",
       "zenodo_id": null,
       "rg_id": 402229391,
-      "has_md": false
+      "has_md": true
     },
     {
       "path": "papers/2026-active-transaction-graphs",
@@ -39,7 +39,7 @@
       "doi": "10.13140/RG.2.2.24883.39207",
       "zenodo_id": null,
       "rg_id": 403387171,
-      "has_md": false
+      "has_md": true
     },
     {
       "path": "papers/2026-company-brain",
@@ -49,7 +49,7 @@
       "doi": "10.13140/RG.2.2.28274.88007",
       "zenodo_id": null,
       "rg_id": 403449291,
-      "has_md": false
+      "has_md": true
     },
     {
       "path": "papers/2026-what-is-work",
@@ -59,7 +59,7 @@
       "doi": null,
       "zenodo_id": null,
       "rg_id": 403936327,
-      "has_md": false
+      "has_md": true
     },
     {
       "path": "papers/2026-metaunderstanding",
@@ -69,7 +69,7 @@
       "doi": null,
       "zenodo_id": null,
       "rg_id": 403758098,
-      "has_md": false
+      "has_md": true
     },
     {
       "path": "papers/2026-computable-boundary-of-the-firm",
@@ -140,7 +140,7 @@
       "doi": "10.5281/zenodo.21458098",
       "zenodo_id": 21458098,
       "rg_id": 410613460,
-      "has_md": false,
+      "has_md": true,
       "known_mismatch": "Repo holds the author's 13-page ResearchGate text; Zenodo v1 is the 9-page deposit. Pending author decision on a v2 deposit (recorded 2026-07-28). Remove this field once reconciled."
     },
     {

@@ -16,6 +16,7 @@ This paper proposes Company Brain—an architectural framework for the cognitive
 | File | Description |
 |------|-------------|
 | [paper.pdf](paper.pdf) | Canonical PDF (author's copy of the ResearchGate deposit) |
+| [paper.md](paper.md) | Readable markdown version |
 
 ## How to cite
 

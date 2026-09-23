@@ -16,6 +16,7 @@ We prove a factorization necessity result: any *minimal* good regulator (i.e., c
 | File | Description |
 |------|-------------|
 | [paper.pdf](paper.pdf) | Canonical PDF (author's copy of the ResearchGate deposit) |
+| [paper.md](paper.md) | Readable markdown version |
 
 ## How to cite
 

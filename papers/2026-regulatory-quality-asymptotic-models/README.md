@@ -18,6 +18,7 @@ We introduce a quantitative framework for measuring how well an asymptotic model
 | File | Description |
 |------|-------------|
 | [paper.pdf](paper.pdf) | Canonical PDF (author's copy of the ResearchGate deposit) |
+| [paper.md](paper.md) | Readable markdown version |
 
 ## How to cite
 

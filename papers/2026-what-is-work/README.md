@@ -16,6 +16,7 @@ The paper asks what work is from an informational point of view, and whether AI 
 | File | Description |
 |------|-------------|
 | [paper.pdf](paper.pdf) | Canonical PDF (author's copy of the ResearchGate deposit) |
+| [paper.md](paper.md) | Readable markdown version |
 
 ## How to cite
 

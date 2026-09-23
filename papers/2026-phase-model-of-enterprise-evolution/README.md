@@ -16,6 +16,7 @@ This paper presents a four-phase model of enterprise evolution grounded in two r
 | File | Description |
 |------|-------------|
 | [paper.pdf](paper.pdf) | Canonical PDF (author's copy of the ResearchGate deposit) |
+| [paper.md](paper.md) | Readable markdown version |
 
 ## How to cite
 
