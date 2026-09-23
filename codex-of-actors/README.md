@@ -14,7 +14,7 @@ is complete; the chapter table below is the authoritative index of what has been
 
 | # | Chapter | Released | Files |
 |---|---------|----------|-------|
-| — | *No chapters released yet — the first will appear here.* | | |
+| 1 | [Why Do You Need This Book?](chapter-01-why-do-you-need-this-book/) | September 2026 | [chapter.md](chapter-01-why-do-you-need-this-book/chapter.md) |
 
 Each chapter lives in its own folder, `chapter-<NN>-<slug>/`, holding the canonical text as
 supplied by the author (`chapter.pdf` and/or `chapter.md`).
