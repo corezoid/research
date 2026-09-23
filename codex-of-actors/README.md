@@ -12,6 +12,10 @@ is complete; the chapter table below is the authoritative index of what has been
 
 ## Chapters
 
+| | | | | |
+|---|---|---|---|---|
+| ![Cover](cover.jpg) | — | — | — | — |
+
 | # | Chapter | What it covers | Released | Files |
 |---|---------|----------------|----------|-------|
 | 0 | Introduction: [Why Do You Need This Book?](chapter-00-why-do-you-need-this-book/chapter.md) | Introduces the register — the set of concepts and ways of reasoning available to a person or a company — and argues that AI, by adapting to the reader's register, masks the gap it should expose. Sets out the book's method: treating people, software and companies as actors, and complex systems as graphs of their interactions. | Sep 2026 | [chapter.md](chapter-00-why-do-you-need-this-book/chapter.md) (English translation) |
