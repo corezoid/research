@@ -5,7 +5,7 @@ here **chapter by chapter** as the author releases them. Earlier corpus texts re
 the working title *The Actor Codex*; a draft of its Chapter X, *The Boundaries of the Firm*, is
 cited in [The Computable Boundary of the Firm](../papers/2026-computable-boundary-of-the-firm/).
 
-<p align="center"><img src="cover.jpg" alt="Codex of Actors — cover" width="360"></p>
+<p align="center"><img src="banner.png" alt="Codex of Actors — cover and blurb: “Make thinking yours again!”" width="800"></p>
 
 The book synthesizes the research program collected in [`papers/`](../papers/) — the actor model,
 Actor Graphs, active transaction graphs, and the computable theory of the firm — as a single
