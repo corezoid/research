@@ -130,7 +130,8 @@ not as a folder per family:
 ## The book (codex-of-actors/)
 
 *Codex of Actors* is released chapter by chapter into `codex-of-actors/`, one folder per chapter
-(`chapter-<NN>-<slug>/`), each holding the text as supplied by the author (`chapter.pdf` and/or
+(`chapter-<P>-<NN>-<slug>/` for Part P, Chapter NN — chapters are numbered *part.chapter* and released out of
+order; the introduction is `chapter-00-<slug>/`), each holding the text as supplied by the author (`chapter.pdf` and/or
 `chapter.md`); the chapter table in `codex-of-actors/README.md` is the authoritative index.
 Chapters are working text and may be revised until the book is complete, so they stay **outside**
 `tools/manifest.json`, `bibliography.bib`, and the citation graph; links between chapters and

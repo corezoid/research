@@ -49,7 +49,7 @@ This is an essay rather than a formal paper: it develops its argument through Ba
 ## Related work in this repository
 
 - **Builds on** [Actor Graphs](../2026-actor-graphs/) — reference [10]: the accountability framework — triple identity, provenance of authority, transactional history and zero inheritance of authority — that the essay requires before autonomous action becomes acceptable.
-- **See also** [Codex of Actors](../../codex-of-actors/) — the essay cites *"Black, White, Gray!"*, Chapter 2.12 of the book (working title *The Actor Codex*, reference [11]), not yet released here; and [Chapter 1, *The Company as a Typewriter*](../../codex-of-actors/chapter-01-the-company-as-a-typewriter/chapter.md), cites this essay as its reference [1].
+- **See also** [Codex of Actors](../../codex-of-actors/) — the essay cites *"Black, White, Gray!"*, Chapter 2.12 of the book (working title *The Actor Codex*, reference [11]), not yet released here; and [Chapter 2.7, *The Company as a Typewriter*](../../codex-of-actors/chapter-2-07-the-company-as-a-typewriter/chapter.md), cites this essay as its reference [1].
 
 ## Links
 

@@ -240,7 +240,7 @@ External time is operationally available to a system only through a physical rec
 ## Book — Codex of Actors (work in progress, released chapter by chapter)
 
 - **WHY DO YOU NEED THIS BOOK?** — text: `codex-of-actors/chapter-00-why-do-you-need-this-book/chapter.md`
-- **THE COMPANY AS A TYPEWRITER** — text: `codex-of-actors/chapter-01-the-company-as-a-typewriter/chapter.md`
+- **THE COMPANY AS A TYPEWRITER** — text: `codex-of-actors/chapter-2-07-the-company-as-a-typewriter/chapter.md`
 
 ## Interviews (primary sources — the author's own words, not results)
 
