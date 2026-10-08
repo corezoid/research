@@ -91,7 +91,7 @@ formal detail. Maintained by hand — add a term when a new work introduces one.
   retry, compensation or escalation; the state structure preserves participants, obligations,
   confirmed facts, unknown outcomes and transition history. Practical criterion, the **handoff
   test**: another executor can resume unfinished work from saved state without reconstructing the
-  system's memory by hand. — `papers/2026-bad-work`
+  system's memory by hand. — `papers/2026-an-exercise-in-futility`
 - **Machine replication R0–R3 / lineage egoism** — a four-stage model of machine replication ending in
   an autonomous evolutionary lineage; at R3 "lineage egoism" can emerge as a structural orientation
   toward continued existence and reproduction, without implying consciousness. The essay's claim:

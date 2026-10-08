@@ -1,5 +1,5 @@
 ---
-title: "BAD WORK: Work without a Control Loop and a State Structure Isn't Worth Doing"
+title: "An Exercise in Futility: Work without a Control Loop and a State Structure Isn't Worth Doing"
 author:
   - name: Alexander Vityaz
     orcid: 0009-0006-0489-7881
@@ -8,20 +8,20 @@ date: 2026-09-28
 doi: 10.5281/zenodo.23015137
 version: v1
 license: CC-BY-4.0
-keywords: [control loop, state structure, actor graph, distributed systems, durable execution, verification, organizational memory]
+keywords: [control loop, state structure, handoff test, actor graph, mediator actor, outcome unknown, safety and liveness, good regulator, Alan Perlis, accountability, handover, business continuity, key-person dependency, operational risk, process management]
 ---
 
 > **Note.** This markdown version is provided for convenient reading on GitHub. Mathematical notation and figures are authoritative in [paper.pdf](paper.pdf) and in the version of record: [doi:10.5281/zenodo.23015137](https://doi.org/10.5281/zenodo.23015137).
 
-# BAD WORK: Work without a Control Loop and a State Structure Isn't Worth Doing
+# An Exercise in Futility: Work without a Control Loop and a State Structure Isn't Worth Doing
 
 **Alexander Vityaz** · Corezoid Inc., Dnipro, Ukraine · ORCID: [0009-0006-0489-7881](https://orcid.org/0009-0006-0489-7881)
 
 ## Abstract
 
-Work that crosses programs, APIs, organizations, and people can outlive any one execution context. A timeout may leave the outcome of an external action unknown; a restart may erase the information needed to decide what is admissible next. This article proposes a compact organizational analogue of Alan Perlis’s pairing of a loop and a structured variable: the *control loop* and the *state structure*. The control loop relates observed consequences to a goal and selects clarification, retry, compensation, or escalation. The state structure preserves participants, obligations, confirmed facts, unknown outcomes, and transition history. The proposal is connected to the Conant–Ashby regulator theorem and developed through actor graphs with stateful mediator actors, persistent interaction history, and accounting consequences. A bank debit example separates safety, liveness, and conformance. The practical criterion is a handoff test: another executor should be able to resume unfinished work from saved state without reconstructing the system’s memory by hand.
+In many organizations, unfinished work can only be picked up by the person who started it. When a process runs across several systems, services and people, sending a request, receiving it and getting the result become separate events. After a failure, two questions arise: what actually happened, and which commitments are still open. Too often the answers live in one manager’s memory or in message threads. Every incident, handover or absence then forces the team to rebuild context by hand. In this essay I develop an idea from computer scientist Alan Perlis, “a program without a loop and a structured variable isn’t worth writing,” into a principle for managing work: work without a control loop and a state structure isn’t worth doing. The control loop compares results against the goal. When an outcome is unclear, it triggers clarification, retry, compensation or escalation under rules agreed in advance. The state structure is the shared record of who is involved, what has been promised, what is confirmed and what is still unknown. It stays intact when systems restart or people change. Using the example of a bank payment whose confirmation was lost, I show why a business process must be able to say “we don’t know yet” instead of guessing. I then show how to describe people, software and organizations in one model, so that a payment is never taken twice and the outcome of every case is eventually established. I close with a handoff test any manager can run tomorrow: hand one unfinished commitment to a colleague and see whether the records alone tell them what is done, what is open and what to do next.
 
-**Keywords:** control loop; state structure; actor graph; distributed systems; durable execution; verification; organizational memory.
+**Keywords:** control loop, state structure, handoff test, actor graph, mediator actor, outcome unknown, safety and liveness, good regulator, Alan Perlis, accountability, handover, business continuity, key-person dependency, operational risk, process management.
 
 > *“Why did the Roman Empire collapse? What is the Latin for office automation?”*
 >

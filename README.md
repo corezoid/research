@@ -30,7 +30,7 @@ Every paper is published as an immutable, citable record on [Zenodo](https://zen
 | 14 | [How to Become a Smart Company](papers/2026-how-to-become-a-smart-company/) *(essay)* | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21792643-blue.svg)](https://doi.org/10.5281/zenodo.21792643) | [PDF](papers/2026-how-to-become-a-smart-company/paper.pdf) · [MD](papers/2026-how-to-become-a-smart-company/paper.md) |
 | 15 | [Actor Graphs: Triple-Identity Accountable Mediation and Coinductive Disclosure](papers/2026-actor-graphs/) | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21995981-blue.svg)](https://doi.org/10.5281/zenodo.21995981) | [PDF](papers/2026-actor-graphs/paper.pdf) · [MD](papers/2026-actor-graphs/paper.md) |
 | 16 | [BANACH-2026: From Hierarchy to Egoism](papers/2026-banach-2026/) *(essay)* | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22204469-blue.svg)](https://doi.org/10.5281/zenodo.22204469) | [PDF](papers/2026-banach-2026/paper.pdf) · [MD](papers/2026-banach-2026/paper.md) |
-| 17 | [BAD WORK: Work without a Control Loop and a State Structure Isn't Worth Doing](papers/2026-bad-work/) *(essay)* | Sep 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23015137-blue.svg)](https://doi.org/10.5281/zenodo.23015137) | [PDF](papers/2026-bad-work/paper.pdf) · [MD](papers/2026-bad-work/paper.md) |
+| 17 | [An Exercise in Futility: Work without a Control Loop and a State Structure Isn't Worth Doing](papers/2026-an-exercise-in-futility/) *(essay; first published as BAD WORK)* | Sep 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23015137-blue.svg)](https://doi.org/10.5281/zenodo.23015137) | [PDF](papers/2026-an-exercise-in-futility/paper.pdf) · [MD](papers/2026-an-exercise-in-futility/paper.md) |
 
 ### Ontology of Transition — parts
 
@@ -102,7 +102,7 @@ graph BT
     SC["How to Become a<br/>Smart Company (Aug 2026)"]
     AG["Actor Graphs<br/>(Aug 2026)"]
     BAN["BANACH-2026<br/>(Aug 2026)"]
-    BW["Bad Work<br/>(Sep 2026)"]
+    EF["An Exercise in Futility<br/>(Sep 2026)"]
 
     RQ -->|cites| NS
     RQ -->|cites| ATG
@@ -152,8 +152,8 @@ graph BT
     AG -->|cites| BPL
     AG -->|cites| CC
     BAN -->|cites| AG
-    BW -->|cites| NS
-    BW -->|cites| AG
+    EF -->|cites| NS
+    EF -->|cites| AG
     QL -->|cites| MD1
 ```
 
