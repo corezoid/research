@@ -54,6 +54,8 @@ The paper's own annotated corpus list (front matter) describes each relation; th
 - **Builds on** [The Compact Company](../2026-compact-company/) — applies a typed temporal Actor Graph to organisational closure, firm boundaries, continuity, and the minimum human core.
 - Also builds on the [Ontology of Transition](../2026-ontology-of-transition/) volume — develops the event order, physical records, and operational time used by dynamic Actor Graph models *(the volume sits outside the per-paper citation graph; see its parts)*.
 - **Cited by** [How to Become a Smart Company](../2026-how-to-become-a-smart-company/) — the essay's reference [2]: the Actor Graph as the executable model that makes organisational structure available for metaprogramming.
+- **Cited by** [BANACH-2026: From Hierarchy to Egoism](../2026-banach-2026/) — reference [10]: the accountability framework (provenance of authority, verifiable trail) that autonomous action requires.
+- **Cited by** [BAD WORK](../2026-bad-work/) — reference [7]: the formal background for the stateful mediator actors behind the control loop and state structure.
 - Also cites a work not part of this repository: *On the Nature of the Regulator: A Symposium on Frameworks and Actor Graphs* (doi: 10.13140/RG.2.2.30218.02244) — positions the Actor Graph as a macro-framework for regulation with AI as a local framework within it.
 
 ## Links

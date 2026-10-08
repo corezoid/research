@@ -45,6 +45,7 @@ This paper's reference list is entirely to external literature; it does not cite
 - Cited by [What Is Work](../2026-what-is-work/) (Vityaz–Ashby factorization and filter determinism) and [Metaunderstanding](../2026-metaunderstanding/) (Noise Suppression Theorem)
 - Cited by [The Compact Company](../2026-compact-company/) — which takes the factorisation of the minimal regulator as the basis for its distributed human, agentic, and digital regulatory layers
 - Cited by [Actor Graphs](../2026-actor-graphs/) — the factorisation result is used by several Actor Graph applications
+- Cited by [BAD WORK](../2026-bad-work/) — reference [6]: the factorisation result that limits the state structure to the distinctions needed to choose an action
 
 ## Links
 

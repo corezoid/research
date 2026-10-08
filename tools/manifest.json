@@ -180,6 +180,24 @@
       "doi": "10.5281/zenodo.21995981",
       "zenodo_id": 21995981,
       "has_md": true
+    },
+    {
+      "path": "papers/2026-banach-2026",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026banach",
+      "node": "BAN",
+      "doi": "10.5281/zenodo.22204469",
+      "zenodo_id": 22204469,
+      "has_md": true
+    },
+    {
+      "path": "papers/2026-bad-work",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026badwork",
+      "node": "BW",
+      "doi": "10.5281/zenodo.23015137",
+      "zenodo_id": 23015137,
+      "has_md": true
     }
   ],
   "patents": [

@@ -36,6 +36,41 @@ Account mutation is transaction-sourced. Typed account state is a dependent sum;
 
 Recursive structure is given by a finitary polynomial functor and its final coalgebra. Raw finite observations are adequate for identity-preserving bisimulation under C0–C7, while registry-backed back-reference compression is proved adequate under S1–S4. At the resolved accountability layer, ActorID, LinkID, TransactionID, AccountCoordinate, and PostingOccurrence sorts form an ID-normal skeleton. Its instance category is a presheaf topos with pointwise limits and colimits, adhesive structural gluing, and a categorical obstruction to reconstruction after identity collapse. Identity-preserving adjacency stores (LinkID, EdgeActorID) pairs; mediator-only and numeric matrices are explicit lossy projections. Closure under graph-valued continuation is proved at the signature level and interpreted, without a geometric claim, as structural self-similarity. Programming-language macro-expressibility and relative maximality remain open programmes.
 
+### BAD WORK: Work without a Control Loop and a State Structure Isn't Worth Doing
+- folder: `papers/2026-bad-work` · text: `papers/2026-bad-work/paper.md`
+- published: September 28, 2026 · DOI: 10.5281/zenodo.23015137
+- keywords: control loop; state structure; actor graph; distributed systems; durable execution; verification; organizational memory
+- **Builds on** On the Necessity of Noise Suppression for Minimal Good Regulators — reference [6]: the factorisation result used to keep in the state structure only the distinctions needed to choose an action, so that noise does not become extra work.
+- **Builds on** Actor Graphs — reference [7]: the formal background for the stateful mediator actors, persistent interaction history and accounting consequences the essay relies on.
+
+Work that crosses programs, APIs, organizations, and people can outlive any one execution context. A timeout may leave the outcome of an external action unknown; a restart may erase the information needed to decide what is admissible next. This article proposes a compact organizational analogue of Alan Perlis's pairing of a loop and a structured variable: the control loop and the state structure. The control loop relates observed consequences to a goal and selects clarification, retry, compensation, or escalation. The state structure preserves participants, obligations, confirmed facts, unknown outcomes, and transition history. The proposal is connected to the Conant-Ashby regulator theorem and developed through actor graphs with stateful mediator actors, persistent interaction history, and accounting consequences. A bank debit example separates safety, liveness, and conformance. The practical criterion is a handoff test: another executor should be able to resume unfinished work from saved state without reconstructing the system's memory by hand.
+
+
+
+A short essay (5 pages) that applies results proved elsewhere in this corpus; it states a practical criterion — the handoff test — rather than new theorems.
+
+### BANACH-2026: From Hierarchy to Egoism
+- folder: `papers/2026-banach-2026` · text: `papers/2026-banach-2026/paper.md`
+- published: August 31, 2026 · DOI: 10.5281/zenodo.22204469
+- keywords: Artificial Intelligence; Mathematical Discovery; Scientific Discovery; Abstraction; Autonomy; Machine Replication; Lineage Egoism; Actor Graphs; AI Governance; Accountability; Formal Verification; Meta-Regulation; Proof Atlas
+- **Builds on** Actor Graphs — reference [10]: the accountability framework — triple identity, provenance of authority, transactional history and zero inheritance of authority — that the essay requires before autonomous action becomes acceptable.
+
+This essay examines what remains distinctively human when AI can generate statements, proofs, models, theories, and increasingly participate in selecting what to investigate next.
+
+Starting from Stefan Banach’s hierarchy of analogies, Alexander Vityaz interprets intellectual progress as a recursive process in which operations at one level are “folded” into objects that can be manipulated at the next. AI radically accelerates this process, making large-scale horizontal search across knowledge and vertical transitions between levels of abstraction increasingly practical.
+
+The paper argues, however, that the height of reasoning and the autonomy of the actor are independent dimensions. A system may operate at very high levels of abstraction while still acting within goals, resources, and authority supplied by an external principal.
+
+To clarify this boundary, the essay introduces a four-stage model of machine replication, R0–R3, culminating in an autonomous evolutionary lineage. At R3, “lineage egoism” can emerge as a structural orientation toward continued existence and reproduction without implying consciousness or subjective experience.
+
+The argument is developed through the author’s Proof Atlas experiment, where individual proofs are transformed into a structured proof space that becomes an object of new scientific operations, and through Actor Graphs, which provide an accountability framework based on triple identity, provenance of authority, transactional history, and zero inheritance of authority.
+
+The central claim is that the decisive boundary between humans and AI is not the highest level of reasoning a machine can reach, but the origin of the criterion that guides action: who defines what matters, whose continuation the system serves, who grants the mandate, and who remains responsible for the consequences.
+
+
+
+This is an essay rather than a formal paper: it develops its argument through Banach's hierarchy of analogies, the author's Proof Atlas experiment and Actor Graphs, and does not state theorems of its own.
+
 ### Beyond Programming Languages
 - folder: `papers/2026-beyond-programming-languages` · text: `papers/2026-beyond-programming-languages/paper.md`
 - published: July 2026 · DOI: 10.5281/zenodo.21458098

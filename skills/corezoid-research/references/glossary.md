@@ -86,6 +86,17 @@ formal detail. Maintained by hand — add a term when a new work introduces one.
   graph of transitions. — `papers/2026-quantum-learning`
 - **Code as regenerable artifact** — AI separates intelligibility from execution precision; the
   verified Actor Graph becomes the source of operational truth, code a regenerable implementation. — `papers/2026-beyond-programming-languages`
+- **Control loop and state structure** — the organizational analogue of Perlis's loop and structured
+  variable: the control loop relates observed consequences to a goal and selects clarification,
+  retry, compensation or escalation; the state structure preserves participants, obligations,
+  confirmed facts, unknown outcomes and transition history. Practical criterion, the **handoff
+  test**: another executor can resume unfinished work from saved state without reconstructing the
+  system's memory by hand. — `papers/2026-bad-work`
+- **Machine replication R0–R3 / lineage egoism** — a four-stage model of machine replication ending in
+  an autonomous evolutionary lineage; at R3 "lineage egoism" can emerge as a structural orientation
+  toward continued existence and reproduction, without implying consciousness. The essay's claim:
+  the human–AI boundary is not the height of reasoning but the origin of the criterion that guides
+  action — who defines what matters, grants the mandate and remains responsible. — `papers/2026-banach-2026`
 - **Register** — the set of concepts and ways of reasoning a person or company is able to use. AI
   adapts to the user's register and so masks the gap it should expose; the book's method for raising
   the register is describing the world as actor graphs. — `codex-of-actors/chapter-00-why-do-you-need-this-book`
