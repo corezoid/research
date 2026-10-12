@@ -100,6 +100,14 @@ formal detail. Maintained by hand — add a term when a new work introduces one.
 - **Register** — the set of concepts and ways of reasoning a person or company is able to use. AI
   adapts to the user's register and so masks the gap it should expose; the book's method for raising
   the register is describing the world as actor graphs. — `codex-of-actors/chapter-00-why-do-you-need-this-book`
+- **Company as a typewriter / window of consciousness / Big Book of Context (BBC) / metamental
+  graph** — the company viewed as a text-producing machine that reads and writes around the clock.
+  Its *window of consciousness* is an Actor Graph within the graph of its digital twin: the part of
+  operations and the outside world that employees and software can hold in a shared context at
+  once. The *Big Book of Context* is an Actor Graph connecting the company's texts to their sources
+  and to one another; the *metamental graph* is a shared, multilayered model of the company's
+  knowledge, each level generalizing the one below while keeping a path back to source texts. —
+  `papers/2026-company-as-a-typewriter`
 
 ## Foundations
 

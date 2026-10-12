@@ -199,6 +199,15 @@
       "zenodo_id": 23015137,
       "has_md": true,
       "known_mismatch": "Repo holds the author's revised text of 2026-09-30 (retitled An Exercise in Futility; new abstract and keywords, body unchanged); Zenodo holds the 2026-09-28 BAD WORK deposit. Remove once a new Zenodo version is deposited."
+    },
+    {
+      "path": "papers/2026-company-as-a-typewriter",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026typewriter",
+      "node": "CT",
+      "doi": "10.5281/zenodo.23190062",
+      "zenodo_id": 23190062,
+      "has_md": true
     }
   ],
   "patents": [

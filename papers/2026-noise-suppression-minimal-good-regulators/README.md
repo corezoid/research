@@ -46,6 +46,7 @@ This paper's reference list is entirely to external literature; it does not cite
 - Cited by [The Compact Company](../2026-compact-company/) — which takes the factorisation of the minimal regulator as the basis for its distributed human, agentic, and digital regulatory layers
 - Cited by [Actor Graphs](../2026-actor-graphs/) — the factorisation result is used by several Actor Graph applications
 - Cited by [An Exercise in Futility](../2026-an-exercise-in-futility/) — reference [6]: the factorisation result that limits the state structure to the distinctions needed to choose an action
+- Cited by [The Company as a Typewriter](../2026-company-as-a-typewriter/) — reference [5]: noise suppression as the condition for expanding the company's window of consciousness
 
 ## Links
 

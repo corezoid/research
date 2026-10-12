@@ -53,6 +53,7 @@ This is an essay rather than a formal paper: it states the architectural argumen
 - **Builds on** [The Computable Boundary of the Firm](../2026-computable-boundary-of-the-firm/) — the digital twin as the transactional architecture the argument depends on (reference [5]).
 - **Builds on** [Management Debt — Part I](../2026-management-debt-part-i/) — the accumulated cost of fragmentation, here named the fragmentation tax (reference [6], §2).
 - **Cited by** [The Compact Company](../2026-compact-company/) — §3.11 draws on this essay for the fragmentation tax and for the distinction between local functional amplification by AI tools and the architectural integrity of the company (reference [61]).
+- **Cited by** [The Company as a Typewriter](../2026-company-as-a-typewriter/) — reference [8]: the company's digital twin, within whose graph the window of consciousness is defined.
 
 ## Links
 

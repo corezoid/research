@@ -56,6 +56,7 @@ The paper's own annotated corpus list (front matter) describes each relation; th
 - **Cited by** [How to Become a Smart Company](../2026-how-to-become-a-smart-company/) — the essay's reference [2]: the Actor Graph as the executable model that makes organisational structure available for metaprogramming.
 - **Cited by** [BANACH-2026: From Hierarchy to Egoism](../2026-banach-2026/) — reference [10]: the accountability framework (provenance of authority, verifiable trail) that autonomous action requires.
 - **Cited by** [An Exercise in Futility](../2026-an-exercise-in-futility/) — reference [7]: the formal background for the stateful mediator actors behind the control loop and state structure.
+- **Cited by** [The Company as a Typewriter](../2026-company-as-a-typewriter/) — reference [4]: the company's window of consciousness and the Big Book of Context are defined as Actor Graphs.
 - Also cites a work not part of this repository: *On the Nature of the Regulator: A Symposium on Frameworks and Actor Graphs* (doi: 10.13140/RG.2.2.30218.02244) — positions the Actor Graph as a macro-framework for regulation with AI as a local framework within it.
 
 ## Links

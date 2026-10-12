@@ -96,6 +96,33 @@ The Conant–Ashby Good Regulator Theorem is applied within its proper scope. It
 
 The transition to a Compact Company constitutes an institutional migration. The explication of roles, authority, and organizational state redistributes power and reduces opacity rents. A minimal human core must therefore preserve formal resilience together with a verifiable capacity for human response through hot and warm reserves.
 
+### The Company as a Typewriter
+- folder: `papers/2026-company-as-a-typewriter` · text: `papers/2026-company-as-a-typewriter/paper.md`
+- published: September 28, 2026 · DOI: 10.5281/zenodo.23190062
+- keywords: artificial intelligence; organizational cognition; knowledge graphs; digital twins; text production.
+- **Builds on** BANACH-2026: From Hierarchy to Egoism — reference [1], §§1–2: cited with *Metaunderstanding* as background to the metamental graph (§4).
+- **Builds on** Actor Graphs — reference [4]: the company's window of consciousness and the Big Book of Context are both defined as Actor Graphs.
+- **Builds on** On the Necessity of Noise Suppression for Minimal Good Regulators — reference [5]: noise suppression as the condition for expanding the window of consciousness.
+- **Builds on** Metaunderstanding — reference [6]: cited with BANACH-2026 as background to the metamental graph (§4).
+- **Builds on** How to Become a Smart Company — reference [8]: the company's digital twin, within whose graph the window of consciousness is defined.
+
+All books on management, careers, and business are suddenly past their sell-by date (which hasn’t stopped them from selling well). They teach us how to manage people, communicate with people, and compete with people and companies made up of people.
+
+Most of them read suspiciously like Jerry Toner’s _How to Manage Your Slaves_ [11]. Its slave-owning narrator would feel right at home with a modern manager’s to-do list: find the right people, divvy up the work, get results, and stay in control.
+
+At the root of this resemblance is an anthropocentric—and already archaic—view of companies and work. AI is beginning to change the cast of characters, creating a new class of nonbiological workers: semiautonomous today, autonomous soon.
+
+In “The Company as a Typewriter,” a chapter from _Codex of Actors_, we invite you to look at the company through a different lens: as a text-producing machine. It reads and writes around the clock: emails, contracts, documents, programs, messages, logs…
+
+How many of these texts can a company simultaneously see, take into account, and—above all—understand?
+
+
+
+A chapter from the author's book *Codex of Actors*, published as a standalone text with an abstract and references. It is
+the same text as Chapter 2.7 in the book's
+folder; it defines the company's window of consciousness, the Big Book of Context and the metamental graph rather than
+stating theorems.
+
 ### Company Brain: The Architecture of General Company Intelligence
 - folder: `papers/2026-company-brain` · text: `papers/2026-company-brain/paper.md`
 - published: April 2026 · DOI: 10.13140/RG.2.2.28274.88007
