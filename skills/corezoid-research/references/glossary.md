@@ -34,7 +34,8 @@ formal detail. Maintained by hand — add a term when a new work introduces one.
 - **Meta-regulation** — "who regulates the noise suppressor?"; conjectured to close via a three-level
   hierarchy with timescale separation (a conjecture, not a theorem). — same
 - **Regulatory quality R(σ)** — fraction of a finite system's variance explained by an asymptotic
-  model at observation scale σ; below a critical scale σ* model-based regulation is impossible. — `papers/2026-regulatory-quality-asymptotic-models`
+  model at observation scale σ; below a critical scale σ* model-based regulation is impossible. Its Theorem 3.5 (a richer regulator lowers σ*) is flawed as
+  stated — see the erratum in the paper's README. — `papers/2026-regulatory-quality-asymptotic-models`
 
 ## The enterprise
 

@@ -13,6 +13,17 @@ We introduce a quantitative framework for measuring how well an asymptotic model
 
 **MSC 2020:** 93B05 (Controllability), 94A17 (Measures of information), 11N05 (Distribution of primes)
 
+> **Erratum (Theorem 3.5 / Theorem B).** The proof of part (a) does not hold: pointwise dominance of the
+> smoothed residuals, $|\varepsilon^{(2)}_\sigma(k)| \leq |\varepsilon^{(1)}_\sigma(k)|$, bounds their second moments but
+> not their variances, because the variance also subtracts the squared mean. Counterexample:
+> $\varepsilon^{(1)} = (2, 2)$, $\varepsilon^{(2)} = (0, 2)$ satisfy the dominance yet $\mathrm{Var}(\varepsilon^{(1)}) = 0 < 1 = \mathrm{Var}(\varepsilon^{(2)})$;
+> any constant-preserving positive averaging keeps the dominance, so comparing *smoothed* residuals does not repair it.
+> Parts (a)–(b) are therefore false as stated, and (c) is unproven. They hold if condition (i) is replaced by dominance of the
+> *centred* residuals, $|\varepsilon^{(2)}_\sigma(k) - \bar\varepsilon^{(2)}_\sigma| \leq |\varepsilon^{(1)}_\sigma(k) - \bar\varepsilon^{(1)}_\sigma|$,
+> or supplemented by equal mean residuals, $\bar\varepsilon^{(2)}_\sigma = \bar\varepsilon^{(1)}_\sigma$, for all $\sigma$. Theorem A
+> (Lemmas 3.1–3.2, Theorem 3.3) and the numerical results are unaffected. The PDF is the author's text and is unchanged;
+> see [CHANGELOG.md](CHANGELOG.md).
+
 ## Files
 
 | File | Description |

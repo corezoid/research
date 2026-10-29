@@ -261,6 +261,8 @@ Since $\mathrm{Var}[\varepsilon] = \mathbb{E}[\varepsilon^2] - (\mathbb{E}[\vare
 
 (c) If $R^{(2)}(\sigma) \geq R^{(1)}(\sigma) \geq \theta$ for all $\sigma \geq \sigma^*(r^{(1)})$, then a fortiori $R^{(2)}(\sigma) \geq \theta$ for all $\sigma \geq \sigma^*(r^{(1)})$. Hence $\sigma^*(r^{(2)}, \theta) \leq \sigma^*(r^{(1)}, \theta)$. $\square$ $\square$
 
+> *Editorial note (repository erratum):* the step above does not follow. From $\tfrac1N\sum_k (\varepsilon^{(2)}_\sigma(k))^2 \leq \tfrac1N\sum_k (\varepsilon^{(1)}_\sigma(k))^2$ and $|\bar{\varepsilon}^{(2)}_\sigma| \leq |\bar{\varepsilon}^{(1)}_\sigma|$ one cannot conclude $V_{\varepsilon^{(2)}} \leq V_{\varepsilon^{(1)}}$, since the smaller mean is subtracted from the smaller second moment. Counterexample: $\varepsilon^{(1)} = (2, 2)$, $\varepsilon^{(2)} = (0, 2)$ satisfy condition (i), yet $\mathrm{Var}(\varepsilon^{(1)}) = 0 < 1 = \mathrm{Var}(\varepsilon^{(2)})$. Hence (a) and (b) are false as stated and (c) is unproven. All three hold, with the proof above, if (i) is replaced by dominance of the centred residuals $|\varepsilon^{(2)}_\sigma(k) - \bar{\varepsilon}^{(2)}_\sigma| \leq |\varepsilon^{(1)}_\sigma(k) - \bar{\varepsilon}^{(1)}_\sigma|$, or if (i) is supplemented by $\bar{\varepsilon}^{(2)}_\sigma = \bar{\varepsilon}^{(1)}_\sigma$ for all $\sigma$. The author's text above is reproduced unchanged; see [CHANGELOG.md](CHANGELOG.md).
+
 *Remark 3.6.* Condition (i) is strong: it requires pointwise dominance at every $k$ and every $\sigma$. For the prime regulators $r_\mathrm{PNT} \preceq r_\mathrm{Li} \preceq r_R$, this condition does *not* hold strictly – there exist individual decades where a simpler regulator happens to outperform a more complex one by chance. The observed monotonicity of $\sigma^*$ (Section 5.3) is therefore a *numerical observation* consistent with Theorem 3.5's prediction under approximate (average) dominance, not a strict corollary.
 
 ### 3.3 Connection to Ashby's Law
@@ -451,6 +453,8 @@ pdflatex main.tex && pdflatex main.tex
 | Thm A(b) | $\sigma^* < \infty$ | Proved | (A1)–(A3), Lemmas 1–2 |
 | Thm A(c) | Non-trivial threshold exists | Proved | (A1)–(A3) + initial condition |
 | Thm B | Refinement reduces $\sigma^*$ | Proved | Pointwise dominance (strong) |
+
+> *Editorial note (repository erratum):* the "Proved" status of Thm B does not stand as stated — see the note after the proof of Theorem 3.5.
 | Prop 1 | Variety interpretation | Heuristic | Binning assumptions |
 | Emp. Law 1 | $\sigma^* \sim \ln N$ for primes | Empirical | PNT error estimates (open) |
 | Emp. Law 2 | $\sigma^*$ ordering for regulator chain | Numerical obs. | Pointwise dominance (unverified) |
