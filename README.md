@@ -32,6 +32,7 @@ Every paper is published as an immutable, citable record on [Zenodo](https://zen
 | 16 | [BANACH-2026: From Hierarchy to Egoism](papers/2026-banach-2026/) *(essay)* | Aug 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22204469-blue.svg)](https://doi.org/10.5281/zenodo.22204469) | [PDF](papers/2026-banach-2026/paper.pdf) · [MD](papers/2026-banach-2026/paper.md) |
 | 17 | [An Exercise in Futility: Work without a Control Loop and a State Structure Isn't Worth Doing](papers/2026-an-exercise-in-futility/) *(essay; first published as BAD WORK)* | Sep 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23015137-blue.svg)](https://doi.org/10.5281/zenodo.23015137) | [PDF](papers/2026-an-exercise-in-futility/paper.pdf) · [MD](papers/2026-an-exercise-in-futility/paper.md) |
 | 18 | [The Company as a Typewriter](papers/2026-company-as-a-typewriter/) *(Codex of Actors, Chapter 2.7)* | Sep 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23190062-blue.svg)](https://doi.org/10.5281/zenodo.23190062) | [PDF](papers/2026-company-as-a-typewriter/paper.pdf) · [MD](papers/2026-company-as-a-typewriter/paper.md) |
+| 19 | [No Program](papers/2026-no-program/) *(essay)* | Oct 2026 | [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23598371-blue.svg)](https://doi.org/10.5281/zenodo.23598371) | [PDF](papers/2026-no-program/paper.pdf) · [MD](papers/2026-no-program/paper.md) |
 
 ### Ontology of Transition — parts
 
@@ -105,6 +106,7 @@ graph BT
     BAN["BANACH-2026<br/>(Aug 2026)"]
     EF["An Exercise in Futility<br/>(Sep 2026)"]
     CT["The Company as a<br/>Typewriter (Sep 2026)"]
+    NP["No Program<br/>(Oct 2026)"]
 
     RQ -->|cites| NS
     RQ -->|cites| ATG
@@ -162,6 +164,8 @@ graph BT
     CT -->|cites| NS
     CT -->|cites| MU
     CT -->|cites| SC
+    NP -->|cites| BPL
+    NP -->|cites| NS
 ```
 
 Two papers anchor the corpus: *On the Necessity of Noise Suppression* (the cybernetic necessity result) and *Active Transaction Graphs* (the formal actor/graph/ledger framework); the other papers build on one or both.

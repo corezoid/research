@@ -87,6 +87,11 @@ formal detail. Maintained by hand — add a term when a new work introduces one.
   graph of transitions. — `papers/2026-quantum-learning`
 - **Code as regenerable artifact** — AI separates intelligibility from execution precision; the
   verified Actor Graph becomes the source of operational truth, code a regenerable implementation. — `papers/2026-beyond-programming-languages`
+- **No Program** — a paradigm in which one thinks in terms of the system rather than individual
+  programs: the Actor Graph is an executable model of the whole system (its digital twin and
+  metasystem) with unified accounting, from which programs and their connections are generated and
+  regenerated. *Genetic tools* at the meta-level inherit and transform the graph itself, so an
+  approved structure stays open to further change. — `papers/2026-no-program`
 - **Control loop and state structure** — the organizational analogue of Perlis's loop and structured
   variable: the control loop relates observed consequences to a goal and selects clarification,
   retry, compensation or escalation; the state structure preserves participants, obligations,

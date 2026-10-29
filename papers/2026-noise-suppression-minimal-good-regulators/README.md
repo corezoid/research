@@ -47,6 +47,7 @@ This paper's reference list is entirely to external literature; it does not cite
 - Cited by [Actor Graphs](../2026-actor-graphs/) — the factorisation result is used by several Actor Graph applications
 - Cited by [An Exercise in Futility](../2026-an-exercise-in-futility/) — reference [6]: the factorisation result that limits the state structure to the distinctions needed to choose an action
 - Cited by [The Company as a Typewriter](../2026-company-as-a-typewriter/) — reference [5]: noise suppression as the condition for expanding the company's window of consciousness
+- Cited by [No Program](../2026-no-program/) — reference [4]: noise suppression selects what matters for the goal in a model sufficient for regulation
 
 ## Links
 

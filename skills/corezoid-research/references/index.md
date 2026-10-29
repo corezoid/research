@@ -181,6 +181,22 @@ At the computational level, TAG ACCOUNTS-OS is introduced on top of ACTOR GRAPHS
 
 The paper rests on three tiers of claims: classical scientific results (Conant–Ashby, INFORMATION BOTTLENECK, MDL, chunking), the author's Noise Suppression Theorem, and the engineering construct of TAG ACCOUNTS + ACTOR GRAPHS.
 
+### No Program
+- folder: `papers/2026-no-program` · text: `papers/2026-no-program/paper.md`
+- published: October 23, 2026 · DOI: 10.5281/zenodo.23598371
+- keywords: Actor Graphs; System Architecture; Model-Driven Engineering; Digital Twin; AI-Assisted Software Development
+- **Builds on** Beyond Programming Languages — reference [19]: the essay presents itself as its continuation, adding unified accounting and genetic tools to the move from program text to an executable model.
+- **Builds on** On the Necessity of Noise Suppression for Minimal Good Regulators — reference [4]: the factorization of minimal Good Regulators, cited for the role of noise suppression in a model sufficient for regulation.
+
+Code, low-code, and no-code all focus on fragments of an IT system. As separate programs, records, and integrations accumulate, the company becomes harder to understand and change. Faster code generation leaves the underlying problem intact.
+
+In *No Program*, I introduce a new category and propose shifting the focus from individual programs to the IT system as a whole. Its actors, relationships, rules, and transaction history form an executable Actor Graph from which programs and their connections can be generated and regenerated. The goal is to move managers to the meta-level and give them greater control over how the company works and changes.
+
+
+
+An essay (8 pages, subtitled *or Stop Writing Programs*) that continues *Beyond Programming Languages*; it argues a
+development paradigm and does not state theorems.
+
 ### On the Necessity of Noise Suppression for Minimal Good Regulators: Factorization Theorems and a Closure Conjecture
 - folder: `papers/2026-noise-suppression-minimal-good-regulators` · text: `papers/2026-noise-suppression-minimal-good-regulators/paper.md`
 - published: January 2026 · DOI: 10.13140/RG.2.2.33143.07843

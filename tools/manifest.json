@@ -208,6 +208,15 @@
       "doi": "10.5281/zenodo.23190062",
       "zenodo_id": 23190062,
       "has_md": true
+    },
+    {
+      "path": "papers/2026-no-program",
+      "pdf": "paper.pdf",
+      "citekey": "vityaz2026noprogram",
+      "node": "NP",
+      "doi": "10.5281/zenodo.23598371",
+      "zenodo_id": 23598371,
+      "has_md": true
     }
   ],
   "patents": [
